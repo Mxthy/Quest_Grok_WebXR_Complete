@@ -1,0 +1,315 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"records\": [{\"id\": \"6ab29294f62da897d71f1f78\", \"slug\": \"native-quest-runtime/reference-app/build-artifacts/overview\", \"title\": \"Build Artifacts Overview: Per-Commit Manifest for Reproducible Builds\", \"path\": \"native-quest-runtime/reference-app/build-artifacts\"}, {\"id\": \"6ab29294f62da897d71f1f79\", \"slug\": \"native-quest-runtime/reference-app/build-artifacts/cheatsheet\", \"title\": \"Artifact Cheatsheet: CI Bundle Commands\", \"path\": \"native-quest-runtime/reference-app/build-artifacts\"}, {\"id\": \"6ab29294f62da897d71f1f7a\", \"slug\": \"native-quest-runtime/reference-app/build-artifacts/pitfalls\", \"title\": \"Artifact Pitfalls: Stripped Symbols, Missing SPIR-V & Retention Loss\", \"path\": \"native-quest-runtime/reference-app/build-artifacts\"}, {\"id\": \"6ab29294f62da897d71f1f7b\", \"slug\": \"native-quest-runtime/reference-app/build-artifacts/examples\", \"title\": \"Artifact Example: Workflow Upload Step\", \"path\": \"native-quest-runtime/reference-app/build-artifacts\"}, {\"id\": \"6ab29294f62da897d71f1f7c\", \"slug\": \"native-quest-runtime/reference-app/build-artifacts/official-docs\", \"title\": \"Official Docs: Artifact & CI Sources\", \"path\": \"native-quest-runtime/reference-app/build-artifacts\"}, {\"id\": \"6ab29294f62da897d71f1f7d\", \"slug\": \"native-quest-runtime/reference-app/quest-runner/overview\", \"title\": \"Quest Runner Overview: Self-Hosted CI with Attached Quest 3\", \"path\": \"native-quest-runtime/reference-app/quest-runner\"}, {\"id\": \"6ab29294f62da897d71f1f7e\", \"slug\": \"native-quest-runtime/reference-app/quest-runner/cheatsheet\", \"title\": \"Quest Runner Cheatsheet: Setup & Loop Commands\", \"path\": \"native-quest-runtime/reference-app/quest-runner\"}, {\"id\": \"6ab29294f62da897d71f1f7f\", \"slug\": \"native-quest-runtime/reference-app/quest-runner/pitfalls\", \"title\": \"Quest Runner Pitfalls: adb Auth, Sleep States & Flaky USB\", \"path\": \"native-quest-runtime/reference-app/quest-runner\"}, {\"id\": \"6ab29294f62da897d71f1f80\", \"slug\": \"native-quest-runtime/reference-app/quest-runner/examples\", \"title\": \"Quest Runner Example: Minimal CI Job\", \"path\": \"native-quest-runtime/reference-app/quest-runner\"}, {\"id\": \"6ab29294f62da897d71f1f81\", \"slug\": \"native-quest-runtime/reference-app/quest-runner/official-docs\", \"title\": \"Official Docs: Runner & adb Sources\", \"path\": \"native-quest-runtime/reference-app/quest-runner\"}, {\"id\": \"6ab29294f62da897d71f1f64\", \"slug\": \"native-quest-runtime/reference-app/quest3-device-profile/overview\", \"title\": \"Quest 3 Device Profile: Verified Specs + Per-Run Template\", \"path\": \"native-quest-runtime/reference-app/quest3-device-profile\"}, {\"id\": \"6ab29294f62da897d71f1f65\", \"slug\": \"native-quest-runtime/reference-app/quest3-device-profile/cheatsheet\", \"title\": \"Quest 3 Cheatsheet: adb Device-State & Refresh-Rate Commands\", \"path\": \"native-quest-runtime/reference-app/quest3-device-profile\"}, {\"id\": \"6ab29294f62da897d71f1f66\", \"slug\": \"native-quest-runtime/reference-app/quest3-device-profile/pitfalls\", \"title\": \"Quest 3 Pitfalls: Refresh Default, Experimental Flag Reset & Display Scaling\", \"path\": \"native-quest-runtime/reference-app/quest3-device-profile\"}, {\"id\": \"6ab29294f62da897d71f1f67\", \"slug\": \"native-quest-runtime/reference-app/quest3-device-profile/examples\", \"title\": \"Quest 3 Profile Example: Run-Header for Test Reports\", \"path\": \"native-quest-runtime/reference-app/quest3-device-profile\"}, {\"id\": \"6ab29294f62da897d71f1f68\", \"slug\": \"native-quest-runtime/reference-app/quest3-device-profile/official-docs\", \"title\": \"Official Docs: Quest 3 Product, Refresh Rates, ADB & Metrics Sources\", \"path\": \"native-quest-runtime/reference-app/quest3-device-profile\"}, {\"id\": \"6ab29294f62da897d71f1f69\", \"slug\": \"native-quest-runtime/reference-app/golden-test-data/overview\", \"title\": \"Golden Test Data Overview: Recording Toolkit, Structure & Honesty Bounds\", \"path\": \"native-quest-runtime/reference-app/golden-test-data\"}, {\"id\": \"6ab29294f62da897d71f1f6a\", \"slug\": \"native-quest-runtime/reference-app/golden-test-data/cheatsheet\", \"title\": \"Golden Data Cheatsheet: Recording Commands & Scenario Layout\", \"path\": \"native-quest-runtime/reference-app/golden-test-data\"}, {\"id\": \"6ab29294f62da897d71f1f6b\", \"slug\": \"native-quest-runtime/reference-app/golden-test-data/pitfalls\", \"title\": \"Golden Data Pitfalls: Brittle Pixel Diffs, Drifting Assets & Tolerance Limits\", \"path\": \"native-quest-runtime/reference-app/golden-test-data\"}, {\"id\": \"6ab29294f62da897d71f1f6c\", \"slug\": \"native-quest-runtime/reference-app/golden-test-data/examples\", \"title\": \"Golden Data Examples: Lifecycle Expectation & Telemetry Tolerance Format\", \"path\": \"native-quest-runtime/reference-app/golden-test-data\"}, {\"id\": \"6ab29294f62da897d71f1f6d\", \"slug\": \"native-quest-runtime/reference-app/golden-test-data/official-docs\", \"title\": \"Official Docs: Golden-Data Toolkit Sources\", \"path\": \"native-quest-runtime/reference-app/golden-test-data\"}, {\"id\": \"6ab29294f62da897d71f1f6e\", \"slug\": \"native-quest-runtime/reference-app/test-procedure/overview\", \"title\": \"Quest 3 Test Procedure: Standardized Run Protocol & Official Anchors\", \"path\": \"native-quest-runtime/reference-app/test-procedure\"}, {\"id\": \"6ab29294f62da897d71f1f6f\", \"slug\": \"native-quest-runtime/reference-app/test-procedure/cheatsheet\", \"title\": \"Test Procedure Cheatsheet: Pre-Run Checklist & Artifact Commands\", \"path\": \"native-quest-runtime/reference-app/test-procedure\"}, {\"id\": \"6ab29294f62da897d71f1f70\", \"slug\": \"native-quest-runtime/reference-app/test-procedure/pitfalls\", \"title\": \"Test Procedure Pitfalls: Thermals, Battery & Uncontrolled Sessions\", \"path\": \"native-quest-runtime/reference-app/test-procedure\"}, {\"id\": \"6ab29294f62da897d71f1f71\", \"slug\": \"native-quest-runtime/reference-app/test-procedure/examples\", \"title\": \"Test Procedure Example: Automated Run Loop Script\", \"path\": \"native-quest-runtime/reference-app/test-procedure\"}, {\"id\": \"6ab29294f62da897d71f1f72\", \"slug\": \"native-quest-runtime/reference-app/test-procedure/official-docs\", \"title\": \"Official Docs: Test Procedure Sources\", \"path\": \"native-quest-runtime/reference-app/test-procedure\"}, {\"id\": \"6ab29294f62da897d71f1f73\", \"slug\": \"native-quest-runtime/reference-app/error-fingerprints/overview\", \"title\": \"Error Fingerprints Overview: Known Failure Signatures for the Quest Runtime\", \"path\": \"native-quest-runtime/reference-app/error-fingerprints\"}, {\"id\": \"6ab29294f62da897d71f1f74\", \"slug\": \"native-quest-runtime/reference-app/error-fingerprints/cheatsheet\", \"title\": \"Fingerprint Cheatsheet: Diagnosis Commands per Fingerprint\", \"path\": \"native-quest-runtime/reference-app/error-fingerprints\"}, {\"id\": \"6ab29294f62da897d71f1f75\", \"slug\": \"native-quest-runtime/reference-app/error-fingerprints/pitfalls\", \"title\": \"Fingerprint Pitfalls: Misdiagnosing Session Loss & Throttling\", \"path\": \"native-quest-runtime/reference-app/error-fingerprints\"}, {\"id\": \"6ab29294f62da897d71f1f76\", \"slug\": \"native-quest-runtime/reference-app/error-fingerprints/examples\", \"title\": \"Fingerprint Examples: Session-Loss Handling & Expected Logs\", \"path\": \"native-quest-runtime/reference-app/error-fingerprints\"}, {\"id\": \"6ab29294f62da897d71f1f77\", \"slug\": \"native-quest-runtime/reference-app/error-fingerprints/official-docs\", \"title\": \"Official Docs: Fingerprint Sources\", \"path\": \"native-quest-runtime/reference-app/error-fingerprints\"}, {\"id\": \"6ab291213dccf53dfeb7ca14\", \"slug\": \"native-quest-runtime/reference-app/toolchain-matrix/overview\", \"title\": \"Toolchain-Matrix Overview: Pinned Versions for Reproducible Quest Builds\", \"path\": \"native-quest-runtime/reference-app/toolchain-matrix\"}, {\"id\": \"6ab291213dccf53dfeb7ca15\", \"slug\": \"native-quest-runtime/reference-app/toolchain-matrix/cheatsheet\", \"title\": \"Toolchain Cheatsheet: Version Pins & Compatibility Table\", \"path\": \"native-quest-runtime/reference-app/toolchain-matrix\"}, {\"id\": \"6ab291213dccf53dfeb7ca16\", \"slug\": \"native-quest-runtime/reference-app/toolchain-matrix/pitfalls\", \"title\": \"Toolchain Pitfalls: Version Drift, AGP/Gradle/JDK Mismatch & NDK Pinning\", \"path\": \"native-quest-runtime/reference-app/toolchain-matrix\"}, {\"id\": \"6ab291213dccf53dfeb7ca17\", \"slug\": \"native-quest-runtime/reference-app/toolchain-matrix/examples\", \"title\": \"Toolchain Pin Examples: build.gradle, CI & Known-Good hello_xr Build\", \"path\": \"native-quest-runtime/reference-app/toolchain-matrix\"}, {\"id\": \"6ab291213dccf53dfeb7ca18\", \"slug\": \"native-quest-runtime/reference-app/toolchain-matrix/official-docs\", \"title\": \"Official Docs: Toolchain Versions, OpenXR & Meta SDK Sources\", \"path\": \"native-quest-runtime/reference-app/toolchain-matrix\"}, {\"id\": \"6ab291213dccf53dfeb7ca19\", \"slug\": \"assets-vrm/vrm1-test-asset-pack/overview\", \"title\": \"VRM 1.0 Test Asset Pack Overview: Seed-san, UniVRM Samples & Broken-File Strategy\", \"path\": \"assets-vrm/vrm1-test-asset-pack\"}, {\"id\": \"6ab291213dccf53dfeb7ca1a\", \"slug\": \"assets-vrm/vrm1-test-asset-pack/cheatsheet\", \"title\": \"VRM Test Asset Cheatsheet: Asset Checklist Mapped to Loader Features\", \"path\": \"assets-vrm/vrm1-test-asset-pack\"}, {\"id\": \"6ab291213dccf53dfeb7ca1b\", \"slug\": \"assets-vrm/vrm1-test-asset-pack/pitfalls\", \"title\": \"VRM Test Asset Pitfalls: Beta Spec Mismatch, License & Asset Drift\", \"path\": \"assets-vrm/vrm1-test-asset-pack\"}, {\"id\": \"6ab291213dccf53dfeb7ca1c\", \"slug\": \"assets-vrm/vrm1-test-asset-pack/examples\", \"title\": \"VRM Test Pack Examples: Golden-File Harness & Corpus Layout\", \"path\": \"assets-vrm/vrm1-test-asset-pack\"}, {\"id\": \"6ab291213dccf53dfeb7ca1d\", \"slug\": \"assets-vrm/vrm1-test-asset-pack/official-docs\", \"title\": \"Official Docs: VRM 1.0 Sample Model & Reference Implementation Sources\", \"path\": \"assets-vrm/vrm1-test-asset-pack\"}, {\"id\": \"6ab291213dccf53dfeb7ca1e\", \"slug\": \"native-quest-runtime/deployment/apk-signing/overview\", \"title\": \"APK Signing Overview: Debug-First Strategy, CI Secrets & Keystore Backup\", \"path\": \"native-quest-runtime/deployment/apk-signing\"}, {\"id\": \"6ab291213dccf53dfeb7ca1f\", \"slug\": \"native-quest-runtime/deployment/apk-signing/cheatsheet\", \"title\": \"Signing Cheatsheet: keytool, apksigner & GitHub Secrets Commands\", \"path\": \"native-quest-runtime/deployment/apk-signing\"}, {\"id\": \"6ab291213dccf53dfeb7ca20\", \"slug\": \"native-quest-runtime/deployment/apk-signing/pitfalls\", \"title\": \"Signing Pitfalls: Debug/Release Conflict, Key Loss & versionCode Reuse\", \"path\": \"native-quest-runtime/deployment/apk-signing\"}, {\"id\": \"6ab291213dccf53dfeb7ca21\", \"slug\": \"native-quest-runtime/deployment/apk-signing/examples\", \"title\": \"CI Signing Example: GitHub Actions Debug/Release Signing Workflow\", \"path\": \"native-quest-runtime/deployment/apk-signing\"}, {\"id\": \"6ab291213dccf53dfeb7ca22\", \"slug\": \"native-quest-runtime/deployment/apk-signing/official-docs\", \"title\": \"Official Docs: App Signing, apksigner & CI Secrets\", \"path\": \"native-quest-runtime/deployment/apk-signing\"}, {\"id\": \"6ab28ece622890ccd4b4c8dd\", \"slug\": \"index/catalog-error-atlas\", \"title\": \"Index: error-atlas Path Catalog (35 entries)\", \"path\": \"index\"}, {\"id\": \"6ab28ece622890ccd4b4c8de\", \"slug\": \"index/catalog-games\", \"title\": \"Index: games Path Catalog (45 entries)\", \"path\": \"index\"}, {\"id\": \"6ab28ece622890ccd4b4c8df\", \"slug\": \"index/catalog-input-devices\", \"title\": \"Index: input-devices Path Catalog (35 entries)\", \"path\": \"index\"}, {\"id\": \"6ab28ece622890ccd4b4c8e0\", \"slug\": \"index/catalog-libs-atlas\", \"title\": \"Index: libs-atlas Path Catalog (30 entries)\", \"path\": \"index\"}, {\"id\": \"6ab28ece622890ccd4b4c8e1\", \"slug\": \"index/catalog-life-vibe\", \"title\": \"Index: life-vibe Path Catalog (12 entries)\", \"path\": \"index\"}], \"count\": 50, \"entity_name\": \"KnowledgeEntry\"}"
+    }
+  ],
+  "structuredContent": {
+    "records": [
+      {
+        "id": "6ab29294f62da897d71f1f78",
+        "slug": "native-quest-runtime/reference-app/build-artifacts/overview",
+        "title": "Build Artifacts Overview: Per-Commit Manifest for Reproducible Builds",
+        "path": "native-quest-runtime/reference-app/build-artifacts"
+      },
+      {
+        "id": "6ab29294f62da897d71f1f79",
+        "slug": "native-quest-runtime/reference-app/build-artifacts/cheatsheet",
+        "title": "Artifact Cheatsheet: CI Bundle Commands",
+        "path": "native-quest-runtime/reference-app/build-artifacts"
+      },
+      {
+        "id": "6ab29294f62da897d71f1f7a",
+        "slug": "native-quest-runtime/reference-app/build-artifacts/pitfalls",
+        "title": "Artifact Pitfalls: Stripped Symbols, Missing SPIR-V & Retention Loss",
+        "path": "native-quest-runtime/reference-app/build-artifacts"
+      },
+      {
+        "id": "6ab29294f62da897d71f1f7b",
+        "slug": "native-quest-runtime/reference-app/build-artifacts/examples",
+        "title": "Artifact Example: Workflow Upload Step",
+        "path": "native-quest-runtime/reference-app/build-artifacts"
+      },
+      {
+        "id": "6ab29294f62da897d71f1f7c",
+        "slug": "native-quest-runtime/reference-app/build-artifacts/official-docs",
+        "title": "Official Docs: Artifact & CI Sources",
+        "path": "native-quest-runtime/reference-app/build-artifacts"
+      },
+      {
+        "id": "6ab29294f62da897d71f1f7d",
+        "slug": "native-quest-runtime/reference-app/quest-runner/overview",
+        "title": "Quest Runner Overview: Self-Hosted CI with Attached Quest 3",
+        "path": "native-quest-runtime/reference-app/quest-runner"
+      },
+      {
+        "id": "6ab29294f62da897d71f1f7e",
+        "slug": "native-quest-runtime/reference-app/quest-runner/cheatsheet",
+        "title": "Quest Runner Cheatsheet: Setup & Loop Commands",
+        "path": "native-quest-runtime/reference-app/quest-runner"
+      },
+      {
+        "id": "6ab29294f62da897d71f1f7f",
+        "slug": "native-quest-runtime/reference-app/quest-runner/pitfalls",
+        "title": "Quest Runner Pitfalls: adb Auth, Sleep States & Flaky USB",
+        "path": "native-quest-runtime/reference-app/quest-runner"
+      },
+      {
+        "id": "6ab29294f62da897d71f1f80",
+        "slug": "native-quest-runtime/reference-app/quest-runner/examples",
+        "title": "Quest Runner Example: Minimal CI Job",
+        "path": "native-quest-runtime/reference-app/quest-runner"
+      },
+      {
+        "id": "6ab29294f62da897d71f1f81",
+        "slug": "native-quest-runtime/reference-app/quest-runner/official-docs",
+        "title": "Official Docs: Runner & adb Sources",
+        "path": "native-quest-runtime/reference-app/quest-runner"
+      },
+      {
+        "id": "6ab29294f62da897d71f1f64",
+        "slug": "native-quest-runtime/reference-app/quest3-device-profile/overview",
+        "title": "Quest 3 Device Profile: Verified Specs + Per-Run Template",
+        "path": "native-quest-runtime/reference-app/quest3-device-profile"
+      },
+      {
+        "id": "6ab29294f62da897d71f1f65",
+        "slug": "native-quest-runtime/reference-app/quest3-device-profile/cheatsheet",
+        "title": "Quest 3 Cheatsheet: adb Device-State & Refresh-Rate Commands",
+        "path": "native-quest-runtime/reference-app/quest3-device-profile"
+      },
+      {
+        "id": "6ab29294f62da897d71f1f66",
+        "slug": "native-quest-runtime/reference-app/quest3-device-profile/pitfalls",
+        "title": "Quest 3 Pitfalls: Refresh Default, Experimental Flag Reset & Display Scaling",
+        "path": "native-quest-runtime/reference-app/quest3-device-profile"
+      },
+      {
+        "id": "6ab29294f62da897d71f1f67",
+        "slug": "native-quest-runtime/reference-app/quest3-device-profile/examples",
+        "title": "Quest 3 Profile Example: Run-Header for Test Reports",
+        "path": "native-quest-runtime/reference-app/quest3-device-profile"
+      },
+      {
+        "id": "6ab29294f62da897d71f1f68",
+        "slug": "native-quest-runtime/reference-app/quest3-device-profile/official-docs",
+        "title": "Official Docs: Quest 3 Product, Refresh Rates, ADB & Metrics Sources",
+        "path": "native-quest-runtime/reference-app/quest3-device-profile"
+      },
+      {
+        "id": "6ab29294f62da897d71f1f69",
+        "slug": "native-quest-runtime/reference-app/golden-test-data/overview",
+        "title": "Golden Test Data Overview: Recording Toolkit, Structure & Honesty Bounds",
+        "path": "native-quest-runtime/reference-app/golden-test-data"
+      },
+      {
+        "id": "6ab29294f62da897d71f1f6a",
+        "slug": "native-quest-runtime/reference-app/golden-test-data/cheatsheet",
+        "title": "Golden Data Cheatsheet: Recording Commands & Scenario Layout",
+        "path": "native-quest-runtime/reference-app/golden-test-data"
+      },
+      {
+        "id": "6ab29294f62da897d71f1f6b",
+        "slug": "native-quest-runtime/reference-app/golden-test-data/pitfalls",
+        "title": "Golden Data Pitfalls: Brittle Pixel Diffs, Drifting Assets & Tolerance Limits",
+        "path": "native-quest-runtime/reference-app/golden-test-data"
+      },
+      {
+        "id": "6ab29294f62da897d71f1f6c",
+        "slug": "native-quest-runtime/reference-app/golden-test-data/examples",
+        "title": "Golden Data Examples: Lifecycle Expectation & Telemetry Tolerance Format",
+        "path": "native-quest-runtime/reference-app/golden-test-data"
+      },
+      {
+        "id": "6ab29294f62da897d71f1f6d",
+        "slug": "native-quest-runtime/reference-app/golden-test-data/official-docs",
+        "title": "Official Docs: Golden-Data Toolkit Sources",
+        "path": "native-quest-runtime/reference-app/golden-test-data"
+      },
+      {
+        "id": "6ab29294f62da897d71f1f6e",
+        "slug": "native-quest-runtime/reference-app/test-procedure/overview",
+        "title": "Quest 3 Test Procedure: Standardized Run Protocol & Official Anchors",
+        "path": "native-quest-runtime/reference-app/test-procedure"
+      },
+      {
+        "id": "6ab29294f62da897d71f1f6f",
+        "slug": "native-quest-runtime/reference-app/test-procedure/cheatsheet",
+        "title": "Test Procedure Cheatsheet: Pre-Run Checklist & Artifact Commands",
+        "path": "native-quest-runtime/reference-app/test-procedure"
+      },
+      {
+        "id": "6ab29294f62da897d71f1f70",
+        "slug": "native-quest-runtime/reference-app/test-procedure/pitfalls",
+        "title": "Test Procedure Pitfalls: Thermals, Battery & Uncontrolled Sessions",
+        "path": "native-quest-runtime/reference-app/test-procedure"
+      },
+      {
+        "id": "6ab29294f62da897d71f1f71",
+        "slug": "native-quest-runtime/reference-app/test-procedure/examples",
+        "title": "Test Procedure Example: Automated Run Loop Script",
+        "path": "native-quest-runtime/reference-app/test-procedure"
+      },
+      {
+        "id": "6ab29294f62da897d71f1f72",
+        "slug": "native-quest-runtime/reference-app/test-procedure/official-docs",
+        "title": "Official Docs: Test Procedure Sources",
+        "path": "native-quest-runtime/reference-app/test-procedure"
+      },
+      {
+        "id": "6ab29294f62da897d71f1f73",
+        "slug": "native-quest-runtime/reference-app/error-fingerprints/overview",
+        "title": "Error Fingerprints Overview: Known Failure Signatures for the Quest Runtime",
+        "path": "native-quest-runtime/reference-app/error-fingerprints"
+      },
+      {
+        "id": "6ab29294f62da897d71f1f74",
+        "slug": "native-quest-runtime/reference-app/error-fingerprints/cheatsheet",
+        "title": "Fingerprint Cheatsheet: Diagnosis Commands per Fingerprint",
+        "path": "native-quest-runtime/reference-app/error-fingerprints"
+      },
+      {
+        "id": "6ab29294f62da897d71f1f75",
+        "slug": "native-quest-runtime/reference-app/error-fingerprints/pitfalls",
+        "title": "Fingerprint Pitfalls: Misdiagnosing Session Loss & Throttling",
+        "path": "native-quest-runtime/reference-app/error-fingerprints"
+      },
+      {
+        "id": "6ab29294f62da897d71f1f76",
+        "slug": "native-quest-runtime/reference-app/error-fingerprints/examples",
+        "title": "Fingerprint Examples: Session-Loss Handling & Expected Logs",
+        "path": "native-quest-runtime/reference-app/error-fingerprints"
+      },
+      {
+        "id": "6ab29294f62da897d71f1f77",
+        "slug": "native-quest-runtime/reference-app/error-fingerprints/official-docs",
+        "title": "Official Docs: Fingerprint Sources",
+        "path": "native-quest-runtime/reference-app/error-fingerprints"
+      },
+      {
+        "id": "6ab291213dccf53dfeb7ca14",
+        "slug": "native-quest-runtime/reference-app/toolchain-matrix/overview",
+        "title": "Toolchain-Matrix Overview: Pinned Versions for Reproducible Quest Builds",
+        "path": "native-quest-runtime/reference-app/toolchain-matrix"
+      },
+      {
+        "id": "6ab291213dccf53dfeb7ca15",
+        "slug": "native-quest-runtime/reference-app/toolchain-matrix/cheatsheet",
+        "title": "Toolchain Cheatsheet: Version Pins & Compatibility Table",
+        "path": "native-quest-runtime/reference-app/toolchain-matrix"
+      },
+      {
+        "id": "6ab291213dccf53dfeb7ca16",
+        "slug": "native-quest-runtime/reference-app/toolchain-matrix/pitfalls",
+        "title": "Toolchain Pitfalls: Version Drift, AGP/Gradle/JDK Mismatch & NDK Pinning",
+        "path": "native-quest-runtime/reference-app/toolchain-matrix"
+      },
+      {
+        "id": "6ab291213dccf53dfeb7ca17",
+        "slug": "native-quest-runtime/reference-app/toolchain-matrix/examples",
+        "title": "Toolchain Pin Examples: build.gradle, CI & Known-Good hello_xr Build",
+        "path": "native-quest-runtime/reference-app/toolchain-matrix"
+      },
+      {
+        "id": "6ab291213dccf53dfeb7ca18",
+        "slug": "native-quest-runtime/reference-app/toolchain-matrix/official-docs",
+        "title": "Official Docs: Toolchain Versions, OpenXR & Meta SDK Sources",
+        "path": "native-quest-runtime/reference-app/toolchain-matrix"
+      },
+      {
+        "id": "6ab291213dccf53dfeb7ca19",
+        "slug": "assets-vrm/vrm1-test-asset-pack/overview",
+        "title": "VRM 1.0 Test Asset Pack Overview: Seed-san, UniVRM Samples & Broken-File Strategy",
+        "path": "assets-vrm/vrm1-test-asset-pack"
+      },
+      {
+        "id": "6ab291213dccf53dfeb7ca1a",
+        "slug": "assets-vrm/vrm1-test-asset-pack/cheatsheet",
+        "title": "VRM Test Asset Cheatsheet: Asset Checklist Mapped to Loader Features",
+        "path": "assets-vrm/vrm1-test-asset-pack"
+      },
+      {
+        "id": "6ab291213dccf53dfeb7ca1b",
+        "slug": "assets-vrm/vrm1-test-asset-pack/pitfalls",
+        "title": "VRM Test Asset Pitfalls: Beta Spec Mismatch, License & Asset Drift",
+        "path": "assets-vrm/vrm1-test-asset-pack"
+      },
+      {
+        "id": "6ab291213dccf53dfeb7ca1c",
+        "slug": "assets-vrm/vrm1-test-asset-pack/examples",
+        "title": "VRM Test Pack Examples: Golden-File Harness & Corpus Layout",
+        "path": "assets-vrm/vrm1-test-asset-pack"
+      },
+      {
+        "id": "6ab291213dccf53dfeb7ca1d",
+        "slug": "assets-vrm/vrm1-test-asset-pack/official-docs",
+        "title": "Official Docs: VRM 1.0 Sample Model & Reference Implementation Sources",
+        "path": "assets-vrm/vrm1-test-asset-pack"
+      },
+      {
+        "id": "6ab291213dccf53dfeb7ca1e",
+        "slug": "native-quest-runtime/deployment/apk-signing/overview",
+        "title": "APK Signing Overview: Debug-First Strategy, CI Secrets & Keystore Backup",
+        "path": "native-quest-runtime/deployment/apk-signing"
+      },
+      {
+        "id": "6ab291213dccf53dfeb7ca1f",
+        "slug": "native-quest-runtime/deployment/apk-signing/cheatsheet",
+        "title": "Signing Cheatsheet: keytool, apksigner & GitHub Secrets Commands",
+        "path": "native-quest-runtime/deployment/apk-signing"
+      },
+      {
+        "id": "6ab291213dccf53dfeb7ca20",
+        "slug": "native-quest-runtime/deployment/apk-signing/pitfalls",
+        "title": "Signing Pitfalls: Debug/Release Conflict, Key Loss & versionCode Reuse",
+        "path": "native-quest-runtime/deployment/apk-signing"
+      },
+      {
+        "id": "6ab291213dccf53dfeb7ca21",
+        "slug": "native-quest-runtime/deployment/apk-signing/examples",
+        "title": "CI Signing Example: GitHub Actions Debug/Release Signing Workflow",
+        "path": "native-quest-runtime/deployment/apk-signing"
+      },
+      {
+        "id": "6ab291213dccf53dfeb7ca22",
+        "slug": "native-quest-runtime/deployment/apk-signing/official-docs",
+        "title": "Official Docs: App Signing, apksigner & CI Secrets",
+        "path": "native-quest-runtime/deployment/apk-signing"
+      },
+      {
+        "id": "6ab28ece622890ccd4b4c8dd",
+        "slug": "index/catalog-error-atlas",
+        "title": "Index: error-atlas Path Catalog (35 entries)",
+        "path": "index"
+      },
+      {
+        "id": "6ab28ece622890ccd4b4c8de",
+        "slug": "index/catalog-games",
+        "title": "Index: games Path Catalog (45 entries)",
+        "path": "index"
+      },
+      {
+        "id": "6ab28ece622890ccd4b4c8df",
+        "slug": "index/catalog-input-devices",
+        "title": "Index: input-devices Path Catalog (35 entries)",
+        "path": "index"
+      },
+      {
+        "id": "6ab28ece622890ccd4b4c8e0",
+        "slug": "index/catalog-libs-atlas",
+        "title": "Index: libs-atlas Path Catalog (30 entries)",
+        "path": "index"
+      },
+      {
+        "id": "6ab28ece622890ccd4b4c8e1",
+        "slug": "index/catalog-life-vibe",
+        "title": "Index: life-vibe Path Catalog (12 entries)",
+        "path": "index"
+      }
+    ],
+    "count": 50,
+    "entity_name": "KnowledgeEntry"
+  },
+  "isError": false
+}

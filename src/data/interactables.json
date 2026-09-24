@@ -1,0 +1,424 @@
+[
+  {
+    "id": "couch",
+    "name": "Sunken Couch",
+    "description": "Couch for soft nights or slow escalations.",
+    "position": [
+      3.35,
+      0.38,
+      3.62
+    ],
+    "radius": 1.2,
+    "useTime": 1.2,
+    "kind": "sit",
+    "affection": 2,
+    "comfort": 5,
+    "energy": 2,
+    "dialogue": "evening_wine",
+    "room": "living"
+  },
+  {
+    "id": "bed",
+    "name": "Low Bed",
+    "description": "Shared bed. Sleep, talk, or negotiate — consent first.",
+    "position": [
+      8.55,
+      0.32,
+      2.45
+    ],
+    "radius": 1.2,
+    "useTime": 1.6,
+    "kind": "sleep",
+    "affection": 1,
+    "comfort": 8,
+    "energy": 100,
+    "dialogue": "bed_invite",
+    "room": "bedroom"
+  },
+  {
+    "id": "kitchen_counter",
+    "name": "Kitchen Counter",
+    "description": "Cook together or admit you're here for her.",
+    "position": [
+      0.62,
+      0.9,
+      3.15
+    ],
+    "radius": 1.2,
+    "useTime": 0.6,
+    "kind": "cook",
+    "affection": 0,
+    "comfort": 0,
+    "energy": 0,
+    "room": "living",
+    "dialogue": "flirt_kitchen"
+  },
+  {
+    "id": "fridge",
+    "name": "Fridge",
+    "description": "Cold light, leftover kindness, ingredients for later.",
+    "position": [
+      0.55,
+      0.9,
+      4.38
+    ],
+    "radius": 1.2,
+    "useTime": 0.7,
+    "kind": "fridge",
+    "affection": 0,
+    "comfort": 1,
+    "energy": 0,
+    "room": "living"
+  },
+  {
+    "id": "gift_box",
+    "name": "Gift Box",
+    "description": "A cedar box of things the city still sells after dark.",
+    "position": [
+      5.28,
+      0.28,
+      4.42
+    ],
+    "radius": 1.2,
+    "useTime": 0.5,
+    "kind": "shop",
+    "affection": 0,
+    "comfort": 0,
+    "energy": 0,
+    "room": "living"
+  },
+  {
+    "id": "wardrobe",
+    "name": "Wardrobe",
+    "description": "Soft hangers, five moods of cloth.",
+    "position": [
+      6.58,
+      1.1,
+      4.12
+    ],
+    "radius": 1.2,
+    "useTime": 0.8,
+    "kind": "wardrobe",
+    "affection": 1,
+    "comfort": 2,
+    "energy": 0,
+    "dialogue": "wardrobe_1",
+    "room": "bedroom"
+  },
+  {
+    "id": "radio",
+    "name": "Radio",
+    "description": "A late-night station that never quite names itself.",
+    "position": [
+      5.42,
+      1.15,
+      2.18
+    ],
+    "radius": 1.2,
+    "useTime": 0.5,
+    "kind": "radio",
+    "affection": 1,
+    "comfort": 3,
+    "energy": 0,
+    "room": "living"
+  },
+  {
+    "id": "plant",
+    "name": "Window Plant",
+    "description": "A ficus that notices if you forget.",
+    "position": [
+      5.32,
+      0.55,
+      0.72
+    ],
+    "radius": 1.2,
+    "useTime": 1.0,
+    "kind": "water",
+    "affection": 1,
+    "comfort": 3,
+    "energy": 0,
+    "dialogue": "plant_1",
+    "room": "living"
+  },
+  {
+    "id": "photo_frame",
+    "name": "Photo Frame",
+    "description": "Three early pictures, and room for the ones you take.",
+    "position": [
+      8.5,
+      1.35,
+      0.58
+    ],
+    "radius": 1.2,
+    "useTime": 0.5,
+    "kind": "gallery",
+    "affection": 0,
+    "comfort": 2,
+    "energy": 0,
+    "dialogue": "photo_pose_ask",
+    "room": "bedroom"
+  },
+  {
+    "id": "laptop",
+    "name": "Laptop",
+    "description": "Her sketch files, and a chat window left open for you.",
+    "position": [
+      3.35,
+      0.48,
+      2.72
+    ],
+    "radius": 1.2,
+    "useTime": 0.6,
+    "kind": "talk",
+    "affection": 2,
+    "comfort": 2,
+    "energy": 0,
+    "dialogue": "laptop_hello",
+    "room": "living"
+  },
+  {
+    "id": "window",
+    "name": "City Window",
+    "description": "A rectangle of weather. She watches it like a clock.",
+    "position": [
+      3.0,
+      1.4,
+      0.12
+    ],
+    "radius": 1.2,
+    "useTime": 1.0,
+    "kind": "look",
+    "affection": 1,
+    "comfort": 4,
+    "energy": 0,
+    "dialogue": "window_1",
+    "room": "living"
+  },
+  {
+    "id": "coffee_table",
+    "name": "Coffee Table",
+    "description": "Low oak, ring-stained, always one mug too many.",
+    "position": [
+      3.35,
+      0.22,
+      2.72
+    ],
+    "radius": 1.2,
+    "useTime": 0.8,
+    "kind": "rest",
+    "affection": 1,
+    "comfort": 2,
+    "energy": 0,
+    "room": "living"
+  },
+  {
+    "id": "bookshelf",
+    "name": "Bookshelf",
+    "description": "Paperbacks, a pressed leaf, a manual for a kettle.",
+    "position": [
+      5.52,
+      1.1,
+      3.38
+    ],
+    "radius": 1.2,
+    "useTime": 1.4,
+    "kind": "read",
+    "affection": 2,
+    "comfort": 4,
+    "energy": -2,
+    "dialogue": "shelf_1",
+    "room": "living"
+  },
+  {
+    "id": "lamp",
+    "name": "Floor Lamp",
+    "description": "Click. The room decides it is evening.",
+    "position": [
+      1.42,
+      0.9,
+      3.95
+    ],
+    "radius": 1.2,
+    "useTime": 0.5,
+    "kind": "light",
+    "affection": 0,
+    "comfort": 2,
+    "energy": 0,
+    "room": "living"
+  },
+  {
+    "id": "sink",
+    "name": "Kitchen Sink",
+    "description": "Warm water, a single plate, the small ceremony of being tidy.",
+    "position": [
+      0.58,
+      0.9,
+      1.52
+    ],
+    "radius": 1.2,
+    "useTime": 1.1,
+    "kind": "wash",
+    "affection": 1,
+    "comfort": 3,
+    "energy": -1,
+    "room": "living"
+  },
+  {
+    "id": "nightstand",
+    "name": "Nightstand",
+    "description": "A diary with the day still unwritten.",
+    "position": [
+      9.52,
+      0.45,
+      1.48
+    ],
+    "radius": 1.2,
+    "useTime": 1.0,
+    "kind": "diary",
+    "affection": 2,
+    "comfort": 3,
+    "energy": 0,
+    "dialogue": "diary_1",
+    "room": "bedroom"
+  },
+  {
+    "id": "living_rug",
+    "name": "Living Rug",
+    "description": "Sit on the floor. The apartment gets smaller, in a good way.",
+    "position": [
+      3.35,
+      0.02,
+      2.95
+    ],
+    "radius": 1.2,
+    "useTime": 1.0,
+    "kind": "sit",
+    "affection": 1,
+    "comfort": 3,
+    "energy": 1,
+    "room": "living"
+  },
+  {
+    "id": "mirror",
+    "name": "Hall Mirror",
+    "description": "She checks her hair and pretends not to watch you in the glass.",
+    "position": [
+      6.52,
+      1.35,
+      1.05
+    ],
+    "radius": 1.2,
+    "useTime": 0.8,
+    "kind": "look",
+    "affection": 2,
+    "comfort": 1,
+    "energy": 0,
+    "dialogue": "mirror_1",
+    "room": "bedroom"
+  },
+  {
+    "id": "stove",
+    "name": "Stove",
+    "description": "A single burner with opinions about simmering.",
+    "position": [
+      0.58,
+      0.9,
+      2.32
+    ],
+    "radius": 1.2,
+    "useTime": 0.6,
+    "kind": "cook",
+    "affection": 0,
+    "comfort": 0,
+    "energy": 0,
+    "room": "living",
+    "dialogue": "flirt_kitchen"
+  },
+  {
+    "id": "tv",
+    "name": "Small Television",
+    "description": "A muted nature programme. Rain, always rain.",
+    "position": [
+      4.55,
+      0.55,
+      0.42
+    ],
+    "radius": 1.2,
+    "useTime": 1.5,
+    "kind": "watch",
+    "affection": 2,
+    "comfort": 5,
+    "energy": 1,
+    "dialogue": "tv_1",
+    "room": "living"
+  },
+  {
+    "id": "calendar",
+    "name": "Wall Calendar",
+    "description": "Days crossed in pencil. Yours is a small square too.",
+    "position": [
+      5.88,
+      1.55,
+      4.05
+    ],
+    "radius": 1.2,
+    "useTime": 0.5,
+    "kind": "calendar",
+    "affection": 0,
+    "comfort": 1,
+    "energy": 0,
+    "room": "living"
+  },
+  {
+    "id": "door",
+    "name": "Bedroom Door",
+    "description": "A pine door that never quite latches. The other room waits.",
+    "position": [
+      6.0,
+      1.2,
+      2.65
+    ],
+    "radius": 1.2,
+    "useTime": 0.5,
+    "kind": "door",
+    "affection": 0,
+    "comfort": 0,
+    "energy": 0,
+    "room": "living"
+  },
+  {
+    "id": "kettle",
+    "name": "Kettle",
+    "description": "It clicks off like a polite cough.",
+    "position": [
+      0.95,
+      1.02,
+      3.15
+    ],
+    "radius": 1.2,
+    "useTime": 1.2,
+    "kind": "tea",
+    "affection": 1,
+    "comfort": 4,
+    "energy": 2,
+    "dialogue": "kettle_1",
+    "room": "living"
+  },
+  {
+    "id": "cushion",
+    "name": "Floor Cushion",
+    "description": "A sag in the middle from years of sitting incorrectly.",
+    "position": [
+      2.15,
+      0.12,
+      3.55
+    ],
+    "radius": 1.2,
+    "useTime": 1.0,
+    "kind": "sit",
+    "affection": 1,
+    "comfort": 3,
+    "energy": 1,
+    "room": "living"
+  }
+]

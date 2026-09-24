@@ -1,0 +1,42 @@
+{
+  "decor": [
+    { "id": "floor_lamp", "name": "Paper Floor Lamp", "description": "A warm rice-paper glow for corners.", "kind": "decor", "place": "floor", "unlockLevel": 0, "icon": "lamp" },
+    { "id": "wall_poster", "name": "Rain Window Print", "description": "A lithograph of rain on glass.", "kind": "decor", "place": "wall", "unlockLevel": 2, "icon": "frame" },
+    { "id": "potted_fern", "name": "Desk Fern", "description": "A small fern that likes being spoken to.", "kind": "decor", "place": "floor", "unlockLevel": 0, "icon": "plant" },
+    { "id": "wool_rug", "name": "Wool Rug", "description": "Ivory wool, low pile, easy to nap on.", "kind": "decor", "place": "floor", "unlockLevel": 1, "icon": "rug" },
+    { "id": "fairy_lights", "name": "Fairy Lights", "description": "A quiet constellation for the wall.", "kind": "decor", "place": "wall", "unlockLevel": 3, "icon": "spark" },
+    { "id": "floor_cushion", "name": "Floor Cushion", "description": "Sage linen, slightly flattened.", "kind": "decor", "place": "floor", "unlockLevel": 0, "icon": "cushion" },
+    { "id": "hanging_frame", "name": "Oak Frame", "description": "Empty, waiting for a photograph.", "kind": "decor", "place": "wall", "unlockLevel": 5, "icon": "frame" },
+    { "id": "ceramic_vase", "name": "Speckled Vase", "description": "Hand-thrown, a little lopsided.", "kind": "decor", "place": "floor", "unlockLevel": 0, "icon": "vase" },
+    { "id": "tea_candle", "name": "Tea Candle", "description": "Beeswax, a honeyed burn.", "kind": "decor", "place": "floor", "unlockLevel": 0, "icon": "flame" },
+    { "id": "book_stack", "name": "Book Stack", "description": "Three paperbacks and a pressed leaf.", "kind": "decor", "place": "floor", "unlockLevel": 0, "icon": "book" },
+    { "id": "glass_jar", "name": "Glass Jar", "description": "Catching late light on the sill.", "kind": "decor", "place": "floor", "unlockLevel": 0, "icon": "jar" },
+    { "id": "paper_mobile", "name": "Paper Mobile", "description": "Cranes that turn in the draft.", "kind": "decor", "place": "wall", "unlockLevel": 4, "icon": "mobile" }
+  ],
+  "shop": [
+    { "id": "cocoa_box", "name": "Cedar Cocoa", "description": "A tin she will open immediately.", "kind": "gift", "price": 12, "affection": 10, "comfort": 4 },
+    { "id": "wildflowers", "name": "Market Flowers", "description": "Cosmos and dusty miller, wrapped in paper.", "kind": "gift", "price": 18, "affection": 12, "comfort": 6 },
+    { "id": "sleepy_plush", "name": "Sleepy Plush", "description": "A small moth with button eyes.", "kind": "gift", "price": 28, "affection": 16, "comfort": 8 },
+    { "id": "loose_leaf_tea", "name": "Loose-Leaf Tea", "description": "Hojicha, toasted and quiet.", "kind": "gift", "price": 16, "affection": 11, "comfort": 7 },
+    { "id": "moon_pendant", "name": "Moon Pendant", "description": "A thin silver disc on a black cord.", "kind": "gift", "price": 36, "affection": 18, "comfort": 5 },
+    { "id": "hair_ribbon", "name": "Hair Ribbon", "description": "Soft sage grosgrain.", "kind": "gift", "price": 14, "affection": 9, "comfort": 3 },
+    { "id": "poetry_book", "name": "Evening Poems", "description": "A slim volume she has not read yet.", "kind": "gift", "price": 22, "affection": 14, "comfort": 6 },
+    { "id": "honey_tart", "name": "Honey Tart", "description": "From the bakery two streets over.", "kind": "gift", "price": 20, "affection": 13, "comfort": 9 }
+  ],
+  "ingredients": [
+    { "id": "egg", "name": "Eggs", "kind": "ingredient" },
+    { "id": "rice", "name": "Rice", "kind": "ingredient" },
+    { "id": "ketchup", "name": "Ketchup", "kind": "ingredient" },
+    { "id": "milk", "name": "Milk", "kind": "ingredient" },
+    { "id": "cocoa", "name": "Cocoa", "kind": "ingredient" },
+    { "id": "marshmallow", "name": "Marshmallows", "kind": "ingredient" },
+    { "id": "flour", "name": "Flour", "kind": "ingredient" }
+  ],
+  "outfits": [
+    { "id": "cream", "name": "Cream Knit", "unlockLevel": 0, "cloth": "#e8dcc8", "hair": "#3d2b24" },
+    { "id": "sage", "name": "Sage Dress", "unlockLevel": 1, "cloth": "#8aa390", "hair": "#3d2b24" },
+    { "id": "blush", "name": "Blush Cardigan", "unlockLevel": 2, "cloth": "#c9a3a3", "hair": "#4a3038" },
+    { "id": "navy", "name": "Midnight Shirt", "unlockLevel": 3, "cloth": "#2c3a4a", "hair": "#1c1916" },
+    { "id": "sun", "name": "Linen Vest", "unlockLevel": 4, "cloth": "#cfc3a6", "hair": "#6b4423" }
+  ]
+}

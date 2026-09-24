@@ -1,0 +1,536 @@
+[
+  {
+    "id": "chest",
+    "bone": "chest",
+    "offset": [
+      0,
+      0,
+      0.08
+    ],
+    "radius": 0.12,
+    "layer": 1,
+    "expression": "surprised",
+    "affection": 5,
+    "comfort": 2,
+    "cooldown": 1.2,
+    "haptic": 60,
+    "interactionType": "touch",
+    "allowedInput": [
+      "controllerRay",
+      "mouseRay",
+      "proximity"
+    ],
+    "feedback": "highlight",
+    "requiresConsent": true,
+    "tags": [
+      "soft"
+    ],
+    "coins": 3,
+    "energyCost": 4,
+    "dialogueId": "touch_chest"
+  },
+  {
+    "id": "hips",
+    "bone": "hips",
+    "offset": [
+      0,
+      0,
+      0.05
+    ],
+    "radius": 0.14,
+    "layer": 1,
+    "expression": "happy",
+    "affection": 4,
+    "comfort": 3,
+    "cooldown": 1.1,
+    "haptic": 50,
+    "interactionType": "touch",
+    "allowedInput": [
+      "controllerRay",
+      "mouseRay",
+      "proximity"
+    ],
+    "feedback": "highlight",
+    "requiresConsent": true,
+    "tags": [
+      "soft"
+    ],
+    "coins": 3,
+    "energyCost": 5
+  },
+  {
+    "id": "head",
+    "bone": "head",
+    "offset": [
+      0,
+      0.04,
+      0.02
+    ],
+    "radius": 0.1,
+    "layer": 0,
+    "expression": "relaxed",
+    "affection": 3,
+    "comfort": 1,
+    "cooldown": 1.0,
+    "haptic": 40,
+    "interactionType": "touch",
+    "allowedInput": [
+      "controllerRay",
+      "mouseRay",
+      "proximity"
+    ],
+    "feedback": "highlight",
+    "requiresConsent": false,
+    "tags": [
+      "casual",
+      "face"
+    ],
+    "coins": 1,
+    "energyCost": 2,
+    "dialogueId": "touch_head"
+  },
+  {
+    "id": "spine",
+    "bone": "spine",
+    "offset": [
+      0,
+      0,
+      0.06
+    ],
+    "radius": 0.11,
+    "layer": 1,
+    "expression": "relaxed",
+    "affection": 3,
+    "comfort": 2,
+    "cooldown": 1.0,
+    "haptic": 45,
+    "interactionType": "touch",
+    "allowedInput": [
+      "controllerRay",
+      "mouseRay",
+      "proximity"
+    ],
+    "feedback": "highlight",
+    "requiresConsent": true,
+    "tags": [
+      "soft"
+    ],
+    "coins": 2,
+    "energyCost": 3
+  },
+  {
+    "id": "thigh_l",
+    "bone": "leftUpperLeg",
+    "offset": [
+      0,
+      0,
+      0.04
+    ],
+    "radius": 0.09,
+    "layer": 2,
+    "expression": "surprised",
+    "affection": 6,
+    "comfort": 1,
+    "cooldown": 1.8,
+    "haptic": 80,
+    "requiresLevel": 2,
+    "interactionType": "touch",
+    "allowedInput": [
+      "controllerRay",
+      "mouseRay",
+      "proximity"
+    ],
+    "feedback": "highlight",
+    "requiresConsent": true,
+    "tags": [
+      "intimate"
+    ],
+    "coins": 5,
+    "energyCost": 8,
+    "dialogueId": "touch_intimate"
+  },
+  {
+    "id": "thigh_r",
+    "bone": "rightUpperLeg",
+    "offset": [
+      0,
+      0,
+      0.04
+    ],
+    "radius": 0.09,
+    "layer": 2,
+    "expression": "surprised",
+    "affection": 6,
+    "comfort": 1,
+    "cooldown": 1.8,
+    "haptic": 80,
+    "requiresLevel": 2,
+    "interactionType": "touch",
+    "allowedInput": [
+      "controllerRay",
+      "mouseRay",
+      "proximity"
+    ],
+    "feedback": "highlight",
+    "requiresConsent": true,
+    "tags": [
+      "intimate"
+    ],
+    "coins": 5,
+    "energyCost": 8,
+    "dialogueId": "touch_intimate"
+  },
+  {
+    "id": "neck",
+    "bone": "neck",
+    "offset": [
+      0,
+      0,
+      0.04
+    ],
+    "radius": 0.08,
+    "layer": 1,
+    "expression": "relaxed",
+    "affection": 4,
+    "comfort": 1,
+    "cooldown": 0.9,
+    "haptic": 50,
+    "interactionType": "touch",
+    "allowedInput": [
+      "controllerRay",
+      "mouseRay",
+      "proximity"
+    ],
+    "feedback": "highlight",
+    "requiresConsent": true,
+    "tags": [
+      "soft"
+    ],
+    "coins": 3,
+    "energyCost": 4
+  },
+  {
+    "id": "upperChest",
+    "bone": "upperChest",
+    "offset": [
+      0,
+      0,
+      0.07
+    ],
+    "radius": 0.11,
+    "layer": 1,
+    "expression": "surprised",
+    "affection": 4,
+    "comfort": 2,
+    "cooldown": 1.1,
+    "haptic": 55,
+    "interactionType": "touch",
+    "allowedInput": [
+      "controllerRay",
+      "mouseRay",
+      "proximity"
+    ],
+    "feedback": "highlight",
+    "requiresConsent": true,
+    "tags": [
+      "soft"
+    ],
+    "coins": 3,
+    "energyCost": 4,
+    "dialogueId": "touch_chest"
+  },
+  {
+    "id": "shoulder_l",
+    "bone": "leftUpperArm",
+    "offset": [
+      0,
+      0,
+      0
+    ],
+    "radius": 0.08,
+    "layer": 0,
+    "expression": "relaxed",
+    "affection": 2,
+    "comfort": 1,
+    "cooldown": 0.8,
+    "haptic": 30,
+    "interactionType": "touch",
+    "allowedInput": [
+      "controllerRay",
+      "mouseRay",
+      "proximity"
+    ],
+    "feedback": "highlight",
+    "requiresConsent": false,
+    "tags": [
+      "casual"
+    ],
+    "coins": 1,
+    "energyCost": 2
+  },
+  {
+    "id": "shoulder_r",
+    "bone": "rightUpperArm",
+    "offset": [
+      0,
+      0,
+      0
+    ],
+    "radius": 0.08,
+    "layer": 0,
+    "expression": "relaxed",
+    "affection": 2,
+    "comfort": 1,
+    "cooldown": 0.8,
+    "haptic": 30,
+    "interactionType": "touch",
+    "allowedInput": [
+      "controllerRay",
+      "mouseRay",
+      "proximity"
+    ],
+    "feedback": "highlight",
+    "requiresConsent": false,
+    "tags": [
+      "casual"
+    ],
+    "coins": 1,
+    "energyCost": 2
+  },
+  {
+    "id": "belly",
+    "bone": "spine",
+    "offset": [
+      0,
+      -0.15,
+      0.06
+    ],
+    "radius": 0.1,
+    "layer": 1,
+    "expression": "relaxed",
+    "affection": 3,
+    "comfort": 2,
+    "cooldown": 1.0,
+    "haptic": 45,
+    "interactionType": "touch",
+    "allowedInput": [
+      "controllerRay",
+      "mouseRay",
+      "proximity"
+    ],
+    "feedback": "highlight",
+    "requiresConsent": true,
+    "tags": [
+      "soft"
+    ],
+    "coins": 2,
+    "energyCost": 3
+  },
+  {
+    "id": "lowerLeg_l",
+    "bone": "leftUpperLeg",
+    "offset": [
+      0,
+      -0.35,
+      0.02
+    ],
+    "radius": 0.08,
+    "layer": 0,
+    "expression": "surprised",
+    "affection": 1,
+    "comfort": 0.5,
+    "cooldown": 0.8,
+    "haptic": 30,
+    "interactionType": "touch",
+    "allowedInput": [
+      "controllerRay",
+      "mouseRay",
+      "proximity"
+    ],
+    "feedback": "highlight",
+    "requiresConsent": false,
+    "tags": [
+      "casual"
+    ],
+    "coins": 1,
+    "energyCost": 1
+  },
+  {
+    "id": "lowerLeg_r",
+    "bone": "rightUpperLeg",
+    "offset": [
+      0,
+      -0.35,
+      0.02
+    ],
+    "radius": 0.08,
+    "layer": 0,
+    "expression": "surprised",
+    "affection": 1,
+    "comfort": 0.5,
+    "cooldown": 0.8,
+    "haptic": 30,
+    "interactionType": "touch",
+    "allowedInput": [
+      "controllerRay",
+      "mouseRay",
+      "proximity"
+    ],
+    "feedback": "highlight",
+    "requiresConsent": false,
+    "tags": [
+      "casual"
+    ],
+    "coins": 1,
+    "energyCost": 1
+  },
+  {
+    "id": "back",
+    "bone": "spine",
+    "offset": [
+      0,
+      0,
+      -0.08
+    ],
+    "radius": 0.11,
+    "layer": 1,
+    "expression": "relaxed",
+    "affection": 3,
+    "comfort": 2,
+    "cooldown": 1.0,
+    "haptic": 45,
+    "interactionType": "touch",
+    "allowedInput": [
+      "controllerRay",
+      "mouseRay",
+      "proximity"
+    ],
+    "feedback": "highlight",
+    "requiresConsent": true,
+    "tags": [
+      "soft"
+    ],
+    "coins": 2,
+    "energyCost": 3
+  },
+  {
+    "id": "waist_l",
+    "bone": "hips",
+    "offset": [
+      -0.15,
+      0.05,
+      0
+    ],
+    "radius": 0.09,
+    "layer": 1,
+    "expression": "happy",
+    "affection": 4,
+    "comfort": 1,
+    "cooldown": 1.0,
+    "haptic": 50,
+    "interactionType": "touch",
+    "allowedInput": [
+      "controllerRay",
+      "mouseRay",
+      "proximity"
+    ],
+    "feedback": "highlight",
+    "requiresConsent": true,
+    "tags": [
+      "soft"
+    ],
+    "coins": 3,
+    "energyCost": 4
+  },
+  {
+    "id": "waist_r",
+    "bone": "hips",
+    "offset": [
+      0.15,
+      0.05,
+      0
+    ],
+    "radius": 0.09,
+    "layer": 1,
+    "expression": "happy",
+    "affection": 4,
+    "comfort": 1,
+    "cooldown": 1.0,
+    "haptic": 50,
+    "interactionType": "touch",
+    "allowedInput": [
+      "controllerRay",
+      "mouseRay",
+      "proximity"
+    ],
+    "feedback": "highlight",
+    "requiresConsent": true,
+    "tags": [
+      "soft"
+    ],
+    "coins": 3,
+    "energyCost": 4
+  },
+  {
+    "id": "leftHand",
+    "bone": "leftHand",
+    "offset": [
+      0,
+      0,
+      0
+    ],
+    "radius": 0.08,
+    "layer": 0,
+    "expression": "happy",
+    "affection": 4,
+    "comfort": 5,
+    "cooldown": 0.9,
+    "haptic": 35,
+    "interactionType": "touch",
+    "allowedInput": [
+      "controllerRay",
+      "mouseRay",
+      "proximity"
+    ],
+    "feedback": "highlight",
+    "requiresConsent": false,
+    "tags": [
+      "casual",
+      "hands"
+    ],
+    "coins": 2,
+    "energyCost": 2,
+    "dialogueId": "touch_hand"
+  },
+  {
+    "id": "rightHand",
+    "bone": "rightHand",
+    "offset": [
+      0,
+      0,
+      0
+    ],
+    "radius": 0.08,
+    "layer": 0,
+    "expression": "happy",
+    "affection": 4,
+    "comfort": 5,
+    "cooldown": 0.9,
+    "haptic": 35,
+    "interactionType": "touch",
+    "allowedInput": [
+      "controllerRay",
+      "mouseRay",
+      "proximity"
+    ],
+    "feedback": "highlight",
+    "requiresConsent": false,
+    "tags": [
+      "casual",
+      "hands"
+    ],
+    "coins": 2,
+    "energyCost": 2,
+    "dialogueId": "touch_hand"
+  }
+]

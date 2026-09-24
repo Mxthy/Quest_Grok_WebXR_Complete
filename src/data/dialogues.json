@@ -1,0 +1,1487 @@
+{
+  "starts": {
+    "laptop": "laptop_hello",
+    "couch": "couch_1",
+    "bed": "sleep_1",
+    "plant": "plant_1",
+    "wardrobe": "wardrobe_1",
+    "window": "window_1",
+    "photo_frame": "photo_1",
+    "bookshelf": "shelf_1",
+    "nightstand": "diary_1",
+    "mirror": "mirror_1",
+    "tv": "tv_1",
+    "kettle": "kettle_1",
+    "gift": "gift_generic",
+    "level1": "level1_a",
+    "level2": "level2_a",
+    "level3": "level3_a",
+    "level4": "level4_a",
+    "level5": "level5_a",
+    "cook_omurice": "cook_omurice",
+    "cook_hot_cocoa": "cook_cocoa",
+    "cook_pancakes": "cook_pancakes",
+    "morning": "morning_1",
+    "night": "night_1",
+    "evening": "evening_wine",
+    "bed_invite": "bed_invite",
+    "flirt_kitchen": "flirt_kitchen",
+    "photo_pose": "photo_pose_ask",
+    "consent": "consent_ask",
+    "negotiate": "negotiate_hub",
+    "aftercare": "aftercare_1",
+    "check_in": "check_in_prompt",
+    "pause": "pause_honored",
+    "vivi_invite": "vivi_invite_soft",
+    "vivi_curiosity": "vivi_curiosity"
+  },
+  "nodes": {
+    "laptop_hello": {
+      "id": "laptop_hello",
+      "speaker": "Vivi",
+      "text": "Oh. You found the open document. I was writing a list of things this room still needs. Help me decorate?",
+      "expression": "happy",
+      "affection": 2,
+      "comfort": 1,
+      "choices": [
+        {
+          "id": "c_yes",
+          "label": "Of course. Where do we start?",
+          "next": "laptop_yes",
+          "affection": 4
+        },
+        {
+          "id": "c_look",
+          "label": "Let me look around first.",
+          "next": "laptop_look",
+          "affection": 2
+        },
+        {
+          "id": "c_shy",
+          "label": "Only if you tell me what you like.",
+          "next": "laptop_shy",
+          "affection": 3
+        }
+      ]
+    },
+    "laptop_yes": {
+      "id": "laptop_yes",
+      "speaker": "Vivi",
+      "text": "I left three things by the box. A lamp, a fern, a candle. Place them wherever the room feels unfinished. The B key, if you are the sort who likes keys.",
+      "expression": "happy",
+      "affection": 3,
+      "comfort": 2,
+      "grant": [
+        "floor_lamp",
+        "potted_fern",
+        "tea_candle"
+      ],
+      "next": null
+    },
+    "laptop_look": {
+      "id": "laptop_look",
+      "speaker": "Vivi",
+      "text": "Walk the long way. The fridge hums if you stand close. The window keeps the city at a polite distance. I will be on the couch.",
+      "expression": "relaxed",
+      "affection": 2,
+      "comfort": 2,
+      "grant": [
+        "floor_lamp",
+        "potted_fern",
+        "tea_candle"
+      ],
+      "next": null
+    },
+    "laptop_shy": {
+      "id": "laptop_shy",
+      "speaker": "Vivi",
+      "text": "Warm light. Something living. A smell that is not dust. I like objects that look as if they were already here. Take these. Surprise me a little.",
+      "expression": "happy",
+      "affection": 4,
+      "comfort": 3,
+      "grant": [
+        "floor_lamp",
+        "potted_fern",
+        "tea_candle"
+      ],
+      "next": null
+    },
+    "couch_1": {
+      "id": "couch_1",
+      "speaker": "Vivi",
+      "text": "If you sit, you have to accept the dent. I have trained this cushion for years.",
+      "expression": "relaxed",
+      "affection": 2,
+      "comfort": 3,
+      "choices": [
+        {
+          "id": "c_sit",
+          "label": "I will take the dent.",
+          "next": "couch_sit",
+          "affection": 3
+        },
+        {
+          "id": "c_story",
+          "label": "Tell me about a drawing you never finished.",
+          "next": "couch_story",
+          "affection": 4
+        }
+      ]
+    },
+    "couch_sit": {
+      "id": "couch_sit",
+      "speaker": "Vivi",
+      "text": "See. The afternoon gets longer when there are two people not doing anything.",
+      "expression": "relaxed",
+      "affection": 2,
+      "comfort": 4,
+      "next": null
+    },
+    "couch_story": {
+      "id": "couch_story",
+      "speaker": "Vivi",
+      "text": "A girl with a paper umbrella, standing under a train overpass. I could never get the rain to fall in the right direction. Maybe that is fine.",
+      "expression": "sad",
+      "affection": 3,
+      "comfort": 2,
+      "next": null
+    },
+    "sleep_1": {
+      "id": "sleep_1",
+      "speaker": "Vivi",
+      "text": "If you sleep here, the day folds. I will still be in this apartment when it opens again. That is a promise I can keep.",
+      "expression": "relaxed",
+      "affection": 1,
+      "comfort": 4,
+      "choices": [
+        {
+          "id": "c_sleep",
+          "label": "Good night, Vivi.",
+          "next": "sleep_yes",
+          "affection": 3
+        },
+        {
+          "id": "c_later",
+          "label": "A little longer. I am not finished.",
+          "next": "sleep_later",
+          "affection": 1
+        }
+      ]
+    },
+    "sleep_yes": {
+      "id": "sleep_yes",
+      "speaker": "Vivi",
+      "text": "Mm. Leave the lamp. I like a thin line of light under the door.",
+      "expression": "relaxed",
+      "affection": 2,
+      "comfort": 5,
+      "next": null
+    },
+    "sleep_later": {
+      "id": "sleep_later",
+      "speaker": "Vivi",
+      "text": "Then walk quietly. The floorboards have opinions after ten.",
+      "expression": "neutral",
+      "affection": 1,
+      "comfort": 1,
+      "next": null
+    },
+    "plant_1": {
+      "id": "plant_1",
+      "speaker": "Vivi",
+      "text": "She is called Nori, which is not a plant name, but she did not object. Water her. She leans toward whoever remembers.",
+      "expression": "happy",
+      "affection": 1,
+      "comfort": 2,
+      "next": "plant_2"
+    },
+    "plant_2": {
+      "id": "plant_2",
+      "speaker": "Vivi",
+      "text": "If the leaves go dull I take it personally. Thank you for not making me take it personally today.",
+      "expression": "happy",
+      "affection": 2,
+      "comfort": 3,
+      "next": null
+    },
+    "wardrobe_1": {
+      "id": "wardrobe_1",
+      "speaker": "Vivi",
+      "text": "Clothes are a kind of weather. Pick a climate for me. I will pretend it was my idea.",
+      "expression": "surprised",
+      "affection": 1,
+      "comfort": 1,
+      "next": null
+    },
+    "window_1": {
+      "id": "window_1",
+      "speaker": "Vivi",
+      "text": "That tower with the red mast blinks every four seconds. I have counted it since I moved in. It is a terrible hobby.",
+      "expression": "relaxed",
+      "affection": 2,
+      "comfort": 3,
+      "choices": [
+        {
+          "id": "c_count",
+          "label": "I will count with you.",
+          "next": "window_count",
+          "affection": 4
+        },
+        {
+          "id": "c_rain",
+          "label": "Does it rain here often?",
+          "next": "window_rain",
+          "affection": 3
+        }
+      ]
+    },
+    "window_count": {
+      "id": "window_count",
+      "speaker": "Vivi",
+      "text": "One. Two. Three. Four. See? The city is still there. We can go back to the couch now.",
+      "expression": "happy",
+      "affection": 2,
+      "comfort": 3,
+      "next": null
+    },
+    "window_rain": {
+      "id": "window_rain",
+      "speaker": "Vivi",
+      "text": "Often enough that I bought a second kettle. Rain makes people think they need tea. I do not correct them.",
+      "expression": "happy",
+      "affection": 3,
+      "comfort": 2,
+      "next": null
+    },
+    "photo_1": {
+      "id": "photo_1",
+      "speaker": "Vivi",
+      "text": "I keep three pictures so the frame does not look lonely. Press P when you want to add one of us. I will look at the lens. I promise not to blink on purpose.",
+      "expression": "happy",
+      "affection": 2,
+      "comfort": 2,
+      "next": null
+    },
+    "shelf_1": {
+      "id": "shelf_1",
+      "speaker": "Vivi",
+      "text": "Half of these are unread. I like the spines more than the plots. You can judge me. I have judged myself.",
+      "expression": "relaxed",
+      "affection": 2,
+      "comfort": 3,
+      "next": "shelf_2"
+    },
+    "shelf_2": {
+      "id": "shelf_2",
+      "speaker": "Vivi",
+      "text": "That thin one is poems. The thick one is a cookbook I use as a doorstop. Both are doing their jobs.",
+      "expression": "happy",
+      "affection": 1,
+      "comfort": 2,
+      "next": null
+    },
+    "diary_1": {
+      "id": "diary_1",
+      "speaker": "Vivi",
+      "text": "Do not open it. Or do. It is mostly grocery lists that turned into weather reports. Tuesday: milk, and a sky the colour of dishwater.",
+      "expression": "surprised",
+      "affection": 3,
+      "comfort": 2,
+      "next": null
+    },
+    "mirror_1": {
+      "id": "mirror_1",
+      "speaker": "Vivi",
+      "text": "If I look tired, it is because I am. If I look pleased, it is because you are standing there.",
+      "expression": "happy",
+      "affection": 4,
+      "comfort": 3,
+      "next": null
+    },
+    "tv_1": {
+      "id": "tv_1",
+      "speaker": "Vivi",
+      "text": "It is always a river, this channel. I do not know which country. I have decided it is none of my business.",
+      "expression": "relaxed",
+      "affection": 2,
+      "comfort": 4,
+      "next": null
+    },
+    "kettle_1": {
+      "id": "kettle_1",
+      "speaker": "Vivi",
+      "text": "Water first, then the leaves, then we wait as if we are patient people. We are not, but the tea does not have to know.",
+      "expression": "happy",
+      "affection": 2,
+      "comfort": 4,
+      "next": null
+    },
+    "gift_generic": {
+      "id": "gift_generic",
+      "speaker": "Vivi",
+      "text": "You brought something. Is it practical, pretty, or a little suggestive?",
+      "expression": "surprised",
+      "affection": 1,
+      "comfort": 1
+    },
+    "gift_thanks": {
+      "id": "gift_thanks",
+      "speaker": "Vivi",
+      "text": "I'll keep it where I can see it. That includes the ones that make me blush.",
+      "expression": "happy",
+      "affection": 3,
+      "comfort": 2
+    },
+    "gift_cocoa_box": {
+      "id": "gift_cocoa_box",
+      "speaker": "Vivi",
+      "text": "Cedar cocoa. You remembered the tin I mentioned once, or you guessed well. Either is a kind of love.",
+      "expression": "happy",
+      "affection": 5,
+      "comfort": 4,
+      "next": null
+    },
+    "gift_wildflowers": {
+      "id": "gift_wildflowers",
+      "speaker": "Vivi",
+      "text": "They will not last. That is the point of flowers. I will look at them too much until they don't.",
+      "expression": "happy",
+      "affection": 5,
+      "comfort": 5,
+      "next": null
+    },
+    "gift_sleepy_plush": {
+      "id": "gift_sleepy_plush",
+      "speaker": "Vivi",
+      "text": "A moth. Of course you found a moth. I am putting it on the pillow so the bed looks less like a bed and more like a conspiracy.",
+      "expression": "surprised",
+      "affection": 6,
+      "comfort": 6,
+      "next": null
+    },
+    "gift_loose_leaf_tea": {
+      "id": "gift_loose_leaf_tea",
+      "speaker": "Vivi",
+      "text": "Hojicha. Toasted, like a good sentence. I will make this when the window is dark.",
+      "expression": "relaxed",
+      "affection": 4,
+      "comfort": 5,
+      "next": null
+    },
+    "gift_moon_pendant": {
+      "id": "gift_moon_pendant",
+      "speaker": "Vivi",
+      "text": "It is cold against my collarbone. I like that. I will wear it until I forget I am wearing it, which is the highest compliment I have.",
+      "expression": "happy",
+      "affection": 7,
+      "comfort": 3,
+      "next": null
+    },
+    "gift_hair_ribbon": {
+      "id": "gift_hair_ribbon",
+      "speaker": "Vivi",
+      "text": "Sage. You have been looking at the plant, or at me. I will take either.",
+      "expression": "happy",
+      "affection": 4,
+      "comfort": 2,
+      "next": null
+    },
+    "gift_poetry_book": {
+      "id": "gift_poetry_book",
+      "speaker": "Vivi",
+      "text": "If I read this aloud, you have to stay on the couch. That is the rule of slim volumes.",
+      "expression": "relaxed",
+      "affection": 5,
+      "comfort": 4,
+      "next": null
+    },
+    "gift_honey_tart": {
+      "id": "gift_honey_tart",
+      "speaker": "Vivi",
+      "text": "The bakery two streets over. You walked. I can taste the walk in it. Sit. We are splitting this whether you like pastry or not.",
+      "expression": "happy",
+      "affection": 5,
+      "comfort": 6,
+      "next": null
+    },
+    "cook_omurice": {
+      "id": "cook_omurice",
+      "speaker": "Vivi",
+      "text": "You drew a ketchup heart. I saw it. I am choosing not to comment, which is comment enough.",
+      "expression": "happy",
+      "affection": 4,
+      "comfort": 6,
+      "next": null
+    },
+    "cook_cocoa": {
+      "id": "cook_cocoa",
+      "speaker": "Vivi",
+      "text": "The marshmallow has collapsed, which means we waited the correct amount. Hold the mug by the rim. It is hotter than it looks.",
+      "expression": "relaxed",
+      "affection": 3,
+      "comfort": 7,
+      "next": null
+    },
+    "cook_pancakes": {
+      "id": "cook_pancakes",
+      "speaker": "Vivi",
+      "text": "Sunday in the middle of whatever day this is. I will allow it. Pass the plate before I become ceremonial about butter.",
+      "expression": "happy",
+      "affection": 5,
+      "comfort": 6,
+      "next": null
+    },
+    "level1_a": {
+      "id": "level1_a",
+      "speaker": "Vivi",
+      "text": "Something shifted. I don't flinch when you reach for me anymore.",
+      "expression": "happy",
+      "affection": 2,
+      "comfort": 2,
+      "next": "level1_b"
+    },
+    "level1_b": {
+      "id": "level1_b",
+      "speaker": "Vivi",
+      "text": "Layer one, if you want the technical term. Soft zones — if I say yes.",
+      "expression": "relaxed",
+      "affection": 1,
+      "comfort": 1,
+      "next": "consent_ask"
+    },
+    "level2_a": {
+      "id": "level2_a",
+      "speaker": "Vivi",
+      "text": "You're not a guest in this apartment anymore. You're… in the story.",
+      "expression": "happy",
+      "affection": 3,
+      "comfort": 2,
+      "next": "level2_b"
+    },
+    "level2_b": {
+      "id": "level2_b",
+      "speaker": "Vivi",
+      "text": "If we go further, we go clear-eyed. No games that hurt.",
+      "expression": "neutral",
+      "affection": 2,
+      "comfort": 2,
+      "next": "level2_c"
+    },
+    "level3_a": {
+      "id": "level3_a",
+      "speaker": "Vivi",
+      "text": "High intimacy. Don't waste it on rushing. We earned the slow burn.",
+      "expression": "happy",
+      "affection": 4,
+      "comfort": 3
+    },
+    "level3_b": {
+      "id": "level3_b",
+      "speaker": "Vivi",
+      "text": "Fairy lights, for the wall that faces the bed. I want to fall asleep under something that looks like a mistake the stars made.",
+      "expression": "relaxed",
+      "affection": 3,
+      "comfort": 3,
+      "next": null
+    },
+    "level4_a": {
+      "id": "level4_a",
+      "speaker": "Vivi",
+      "text": "If you left, I would still water Nori. I would still count the red mast. I would like it less. Stay for the counting.",
+      "expression": "sad",
+      "affection": 6,
+      "comfort": 3,
+      "next": "level4_b"
+    },
+    "level4_b": {
+      "id": "level4_b",
+      "speaker": "Vivi",
+      "text": "A paper mobile. Cranes. Hang them where the draft from the door can be useful for once.",
+      "expression": "happy",
+      "affection": 3,
+      "comfort": 3,
+      "next": null
+    },
+    "level5_a": {
+      "id": "level5_a",
+      "speaker": "Vivi",
+      "text": "I have run out of careful sentences. Come here. The apartment is the size of this, and this is enough.",
+      "expression": "happy",
+      "affection": 8,
+      "comfort": 6,
+      "next": "level5_b"
+    },
+    "level5_b": {
+      "id": "level5_b",
+      "speaker": "Vivi",
+      "text": "An oak frame, empty. We will fill it when the light is stupidly good. Not today. Soon.",
+      "expression": "relaxed",
+      "affection": 4,
+      "comfort": 4,
+      "next": null
+    },
+    "morning_1": {
+      "id": "morning_1",
+      "speaker": "Vivi",
+      "text": "I woke up before the kettle, which is rare and should be rewarded with silence and toast.",
+      "expression": "relaxed",
+      "affection": 2,
+      "comfort": 2,
+      "next": "morning_2"
+    },
+    "morning_2": {
+      "id": "morning_2",
+      "speaker": "Vivi",
+      "text": "There is sun on the rug. Stand in it. I am being serious. It is a limited-time offer.",
+      "expression": "happy",
+      "affection": 2,
+      "comfort": 3,
+      "next": null
+    },
+    "night_1": {
+      "id": "night_1",
+      "speaker": "Vivi",
+      "text": "The city has turned its lamps on. I always think of it as someone being considerate.",
+      "expression": "relaxed",
+      "affection": 2,
+      "comfort": 3,
+      "next": "night_2"
+    },
+    "night_2": {
+      "id": "night_2",
+      "speaker": "Vivi",
+      "text": "If you are tired, the bed knows. If you are not, the window still has a few hours of blinking left.",
+      "expression": "neutral",
+      "affection": 1,
+      "comfort": 2,
+      "next": null
+    },
+    "touch_chest": {
+      "id": "touch_chest",
+      "speaker": "Vivi",
+      "text": "You're bold today. I don't mind — just don't rush me.",
+      "expression": "surprised",
+      "affection": 3,
+      "comfort": 1,
+      "choices": [
+        {
+          "id": "gentle",
+          "label": "I'll go slow.",
+          "next": "touch_chest_slow",
+          "affection": 2
+        },
+        {
+          "id": "tease",
+          "label": "You like the attention.",
+          "next": "touch_chest_tease",
+          "affection": 1
+        },
+        {
+          "id": "stop",
+          "label": "Sorry — too much?",
+          "next": "touch_chest_stop",
+          "affection": 0
+        }
+      ]
+    },
+    "touch_head": {
+      "id": "touch_head",
+      "speaker": "Vivi",
+      "text": "Head pets are unfair. You know that, right?",
+      "expression": "happy",
+      "affection": 2,
+      "comfort": 2,
+      "choices": [
+        {
+          "id": "more",
+          "label": "Then I'll keep going.",
+          "next": "touch_head_more",
+          "affection": 2
+        },
+        {
+          "id": "kiss",
+          "label": "Can I kiss your forehead?",
+          "next": "touch_head_kiss",
+          "affection": 3
+        }
+      ]
+    },
+    "touch_hand": {
+      "id": "touch_hand",
+      "speaker": "Vivi",
+      "text": "Your hands are warmer than mine. Hold on a second?",
+      "expression": "happy",
+      "affection": 2,
+      "comfort": 1,
+      "choices": [
+        {
+          "id": "hold",
+          "label": "Interlock fingers.",
+          "next": "touch_hand_hold",
+          "affection": 3
+        },
+        {
+          "id": "kiss_hand",
+          "label": "Kiss her knuckles.",
+          "next": "touch_hand_kiss",
+          "affection": 3
+        }
+      ]
+    },
+    "touch_intimate": {
+      "id": "touch_intimate",
+      "speaker": "Vivi",
+      "text": "That's further. I need a real check — not a guess.",
+      "expression": "surprised",
+      "affection": 1,
+      "choices": [
+        {
+          "id": "ask",
+          "label": "Is this okay for you right now?",
+          "next": "touch_intimate_ask",
+          "affection": 3
+        },
+        {
+          "id": "slower",
+          "label": "We can slow down.",
+          "next": "touch_intimate_slow",
+          "affection": 2
+        },
+        {
+          "id": "stop",
+          "label": "I'll stop.",
+          "next": "touch_intimate_stop",
+          "affection": 2
+        }
+      ]
+    },
+    "idle_1": {
+      "id": "idle_1",
+      "speaker": "Vivi",
+      "text": "Do not mind me. I am inventing a colour for the hour between four and five.",
+      "expression": "neutral",
+      "affection": 0,
+      "comfort": 1,
+      "next": null
+    },
+    "idle_2": {
+      "id": "idle_2",
+      "speaker": "Vivi",
+      "text": "If you hear the fridge, it is only the fridge. It is not a ghost. I already checked, twice.",
+      "expression": "surprised",
+      "affection": 1,
+      "comfort": 1,
+      "next": null
+    },
+    "idle_3": {
+      "id": "idle_3",
+      "speaker": "Vivi",
+      "text": "I like that you walk slowly. Fast people make the floor nervous.",
+      "expression": "relaxed",
+      "affection": 2,
+      "comfort": 2,
+      "next": null
+    },
+    "watered_already": {
+      "id": "watered_already",
+      "speaker": "Vivi",
+      "text": "Nori is still dripping from the last time. She is not a camel, but she is close.",
+      "expression": "happy",
+      "affection": 0,
+      "comfort": 1,
+      "next": null
+    },
+    "need_ingredients": {
+      "id": "need_ingredients",
+      "speaker": "Vivi",
+      "text": "The counter is empty in a judgmental way. Fridge first. Three things. I believe in recipes the way some people believe in trains.",
+      "expression": "neutral",
+      "affection": 0,
+      "comfort": 0,
+      "next": null
+    },
+    "no_recipe": {
+      "id": "no_recipe",
+      "speaker": "Vivi",
+      "text": "That combination is a dare, not a meal. Try eggs and rice and ketchup. Or milk and cocoa and a marshmallow. Or flour and eggs and milk. I have three faiths.",
+      "expression": "surprised",
+      "affection": 0,
+      "comfort": 0,
+      "next": null
+    },
+    "alpha_done": {
+      "id": "alpha_done",
+      "speaker": "Vivi",
+      "text": "Look at this place. Look at you. I think we can call this a life, even if it is only an afternoon with extra days inside it.",
+      "expression": "happy",
+      "affection": 5,
+      "comfort": 5,
+      "next": null
+    },
+    "touch_soft": {
+      "id": "touch_soft",
+      "speaker": "Vivi",
+      "text": "That feels… warm. Stay like that a second.",
+      "expression": "relaxed",
+      "affection": 2,
+      "comfort": 2
+    },
+    "touch_casual": {
+      "id": "touch_casual",
+      "speaker": "Vivi",
+      "text": "Mm — that tickles a little. You can keep your hands there if you want.",
+      "expression": "happy",
+      "affection": 1,
+      "comfort": 1
+    },
+    "consent_ask": {
+      "id": "consent_ask",
+      "speaker": "Vivi",
+      "text": "If you want closer — really closer — ask. I like being asked.",
+      "expression": "relaxed",
+      "affection": 0,
+      "comfort": 1,
+      "choices": [
+        {
+          "id": "yes",
+          "label": "I'd like to get closer. Is that okay?",
+          "next": "consent_yes",
+          "affection": 3
+        },
+        {
+          "id": "what",
+          "label": "What are you comfortable with?",
+          "next": "consent_boundaries",
+          "affection": 2
+        },
+        {
+          "id": "wait",
+          "label": "I'll wait until you're ready.",
+          "next": "consent_wait",
+          "affection": 2
+        }
+      ]
+    },
+    "consent_yes": {
+      "id": "consent_yes",
+      "speaker": "Vivi",
+      "text": "Okay. You can. Soft first. If I tense up, ease off — I'll tell you.",
+      "expression": "happy",
+      "affection": 4,
+      "comfort": 3
+    },
+    "touch_chest_slow": {
+      "id": "touch_chest_slow",
+      "speaker": "Vivi",
+      "text": "Good. Slow is better. My pulse is doing that thing again.",
+      "expression": "relaxed",
+      "affection": 3,
+      "comfort": 2
+    },
+    "touch_chest_tease": {
+      "id": "touch_chest_tease",
+      "speaker": "Vivi",
+      "text": "…Maybe I do. Don't get cocky about it.",
+      "expression": "happy",
+      "affection": 2,
+      "comfort": 1
+    },
+    "touch_chest_stop": {
+      "id": "touch_chest_stop",
+      "speaker": "Vivi",
+      "text": "It's okay. I just need a breath. Come back when you're gentler.",
+      "expression": "neutral",
+      "affection": 0,
+      "comfort": 1
+    },
+    "touch_head_more": {
+      "id": "touch_head_more",
+      "speaker": "Vivi",
+      "text": "Okay… just a little longer.",
+      "expression": "relaxed",
+      "affection": 2,
+      "comfort": 2
+    },
+    "touch_head_kiss": {
+      "id": "touch_head_kiss",
+      "speaker": "Vivi",
+      "text": "…Yeah. That one's soft. I like soft.",
+      "expression": "happy",
+      "affection": 3,
+      "comfort": 3
+    },
+    "touch_hand_hold": {
+      "id": "touch_hand_hold",
+      "speaker": "Vivi",
+      "text": "There. That's… grounding. Stay.",
+      "expression": "relaxed",
+      "affection": 2,
+      "comfort": 3
+    },
+    "touch_hand_kiss": {
+      "id": "touch_hand_kiss",
+      "speaker": "Vivi",
+      "text": "Old-fashioned. Cute. Do it again and I might blush properly.",
+      "expression": "surprised",
+      "affection": 3,
+      "comfort": 2
+    },
+    "touch_intimate_yes": {
+      "id": "touch_intimate_yes",
+      "speaker": "Vivi",
+      "text": "Then… don't look away. I want to see you while you touch me.",
+      "expression": "happy",
+      "affection": 5,
+      "comfort": 2
+    },
+    "touch_intimate_slow": {
+      "id": "touch_intimate_slow",
+      "speaker": "Vivi",
+      "text": "Good. Building is the point, not finishing a sequence.",
+      "expression": "relaxed",
+      "affection": 3,
+      "comfort": 3
+    },
+    "touch_intimate_stop": {
+      "id": "touch_intimate_stop",
+      "speaker": "Vivi",
+      "text": "You stopped. That's the opposite of taking. Come back when we both want it.",
+      "expression": "happy",
+      "affection": 2,
+      "comfort": 4
+    },
+    "consent_boundaries": {
+      "id": "consent_boundaries",
+      "speaker": "Vivi",
+      "text": "Hands, shoulders, hair — always fine. Chest and waist when I've said yes. Anything lower only when we both mean it.",
+      "expression": "neutral",
+      "affection": 1,
+      "comfort": 2,
+      "choices": [
+        {
+          "id": "accept",
+          "label": "I'll follow that.",
+          "next": "consent_yes",
+          "affection": 3
+        },
+        {
+          "id": "later",
+          "label": "Noted — later then.",
+          "next": null,
+          "affection": 1
+        }
+      ]
+    },
+    "consent_wait": {
+      "id": "consent_wait",
+      "speaker": "Vivi",
+      "text": "Patience is sexy. Weird, but true.",
+      "expression": "happy",
+      "affection": 2,
+      "comfort": 2
+    },
+    "evening_wine": {
+      "id": "evening_wine",
+      "speaker": "Vivi",
+      "text": "One glass. Then we decide if the night stays soft or gets interesting.",
+      "expression": "relaxed",
+      "affection": 1,
+      "comfort": 2,
+      "choices": [
+        {
+          "id": "soft",
+          "label": "Soft night. Couch and talk.",
+          "next": "evening_soft",
+          "affection": 2
+        },
+        {
+          "id": "close",
+          "label": "Interesting. Come closer.",
+          "next": "evening_close",
+          "affection": 3
+        }
+      ]
+    },
+    "evening_soft": {
+      "id": "evening_soft",
+      "speaker": "Vivi",
+      "text": "Good. Put your arm around me. No agenda.",
+      "expression": "happy",
+      "affection": 3,
+      "comfort": 4
+    },
+    "evening_close": {
+      "id": "evening_close",
+      "speaker": "Vivi",
+      "text": "Then lock the vibe in. Dim lights, slower breath — and you ask before you escalate.",
+      "expression": "surprised",
+      "affection": 3,
+      "comfort": 2,
+      "next": "consent_ask"
+    },
+    "morning_after_soft": {
+      "id": "morning_after_soft",
+      "speaker": "Vivi",
+      "text": "You stayed. Coffee's almost honest. Don't make it weird — or do, a little.",
+      "expression": "happy",
+      "affection": 2,
+      "comfort": 3
+    },
+    "flirt_kitchen": {
+      "id": "flirt_kitchen",
+      "speaker": "Vivi",
+      "text": "You're in my kitchen space. Either help cook or admit you're here for the view.",
+      "expression": "happy",
+      "affection": 1,
+      "comfort": 1,
+      "choices": [
+        {
+          "id": "help",
+          "label": "I'll stir. You talk.",
+          "next": "flirt_kitchen_help",
+          "affection": 2
+        },
+        {
+          "id": "view",
+          "label": "The view is excellent.",
+          "next": "flirt_kitchen_view",
+          "affection": 2
+        }
+      ]
+    },
+    "flirt_kitchen_help": {
+      "id": "flirt_kitchen_help",
+      "speaker": "Vivi",
+      "text": "Teamwork. Also your shoulder keeps brushing mine on purpose.",
+      "expression": "relaxed",
+      "affection": 2,
+      "comfort": 2
+    },
+    "flirt_kitchen_view": {
+      "id": "flirt_kitchen_view",
+      "speaker": "Vivi",
+      "text": "Shameless. Keep looking and I might burn the pan.",
+      "expression": "surprised",
+      "affection": 2,
+      "comfort": 1
+    },
+    "bed_invite": {
+      "id": "bed_invite",
+      "speaker": "Vivi",
+      "text": "Mattress is big enough for two. Sleep, talk, or… we negotiate.",
+      "expression": "relaxed",
+      "affection": 1,
+      "comfort": 1,
+      "choices": [
+        {
+          "id": "sleep",
+          "label": "Just sleep. Close is enough.",
+          "next": "bed_sleep",
+          "affection": 2
+        },
+        {
+          "id": "talk",
+          "label": "Talk until we fade out.",
+          "next": "bed_talk",
+          "affection": 3
+        },
+        {
+          "id": "more",
+          "label": "Negotiate.",
+          "next": "bed_negotiate",
+          "affection": 2
+        }
+      ]
+    },
+    "bed_sleep": {
+      "id": "bed_sleep",
+      "speaker": "Vivi",
+      "text": "Lights down. If you spoon, keep it respectful until morning.",
+      "expression": "relaxed",
+      "affection": 3,
+      "comfort": 5
+    },
+    "bed_talk": {
+      "id": "bed_talk",
+      "speaker": "Vivi",
+      "text": "Tell me something you don't say on first dates. We already failed that timeline.",
+      "expression": "happy",
+      "affection": 3,
+      "comfort": 3
+    },
+    "bed_negotiate": {
+      "id": "bed_negotiate",
+      "speaker": "Vivi",
+      "text": "Rules: consent stays on. You check in. I can stop us with one word — 'pause'.",
+      "expression": "neutral",
+      "affection": 2,
+      "comfort": 2,
+      "next": "consent_ask"
+    },
+    "level2_c": {
+      "id": "level2_c",
+      "speaker": "Vivi",
+      "text": "Intimate layer unlocked — still gated on consent. Always.",
+      "expression": "relaxed",
+      "affection": 2,
+      "comfort": 1
+    },
+    "photo_pose_ask": {
+      "id": "photo_pose_ask",
+      "speaker": "Vivi",
+      "text": "Camera's on. Soft smile, or something with more heat?",
+      "expression": "happy",
+      "affection": 1,
+      "choices": [
+        {
+          "id": "soft",
+          "label": "Soft. Natural.",
+          "next": "photo_pose_soft",
+          "affection": 1
+        },
+        {
+          "id": "heat",
+          "label": "A little heat.",
+          "next": "photo_pose_heat",
+          "affection": 2
+        }
+      ]
+    },
+    "photo_pose_soft": {
+      "id": "photo_pose_soft",
+      "speaker": "Vivi",
+      "text": "Okay. Chin up. Think about the window light.",
+      "expression": "relaxed",
+      "affection": 1,
+      "comfort": 1
+    },
+    "photo_pose_heat": {
+      "id": "photo_pose_heat",
+      "speaker": "Vivi",
+      "text": "…Fine. Look at you like I mean it. One shot.",
+      "expression": "surprised",
+      "affection": 2
+    },
+    "negotiate_hub": {
+      "id": "negotiate_hub",
+      "speaker": "Vivi",
+      "text": "Let's set this together — not as a checklist, as a conversation. What do you want tonight?",
+      "expression": "relaxed",
+      "affection": 1,
+      "comfort": 1,
+      "choices": [
+        {
+          "id": "pace",
+          "label": "Talk about pace.",
+          "next": "negotiate_pace",
+          "affection": 1
+        },
+        {
+          "id": "where",
+          "label": "Talk about where I can touch.",
+          "next": "negotiate_regions",
+          "affection": 1
+        },
+        {
+          "id": "yes_soft",
+          "label": "Soft closeness is enough for me.",
+          "next": "negotiate_soft_yes",
+          "affection": 2
+        },
+        {
+          "id": "open",
+          "label": "I'd like the option to go further — if you do.",
+          "next": "negotiate_open_ask",
+          "affection": 2
+        },
+        {
+          "id": "not_now",
+          "label": "Not tonight. Still stay close?",
+          "next": "negotiate_not_tonight",
+          "affection": 2
+        }
+      ]
+    },
+    "negotiate_pace": {
+      "id": "negotiate_pace",
+      "speaker": "Vivi",
+      "text": "Slow means I want check-ins. Medium means we still ask before new ground. Exploratory means curious — still stoppable.",
+      "expression": "neutral",
+      "affection": 1,
+      "comfort": 1,
+      "choices": [
+        {
+          "id": "slow",
+          "label": "Slow. Check in with me.",
+          "next": "negotiate_pace_slow",
+          "affection": 2
+        },
+        {
+          "id": "medium",
+          "label": "Medium. Mutual, not rushed.",
+          "next": "negotiate_pace_medium",
+          "affection": 2
+        },
+        {
+          "id": "explore",
+          "label": "Exploratory — but you can always pause.",
+          "next": "negotiate_pace_explore",
+          "affection": 2
+        }
+      ]
+    },
+    "negotiate_pace_slow": {
+      "id": "negotiate_pace_slow",
+      "speaker": "Vivi",
+      "text": "Slow it is. If anything feels off, say pause — I'll listen.",
+      "expression": "happy",
+      "affection": 2,
+      "comfort": 3
+    },
+    "negotiate_pace_medium": {
+      "id": "negotiate_pace_medium",
+      "speaker": "Vivi",
+      "text": "Medium. We move when both of us are still in it.",
+      "expression": "happy",
+      "affection": 2,
+      "comfort": 2
+    },
+    "negotiate_pace_explore": {
+      "id": "negotiate_pace_explore",
+      "speaker": "Vivi",
+      "text": "Exploratory with a safety net. Pause always works. No ego about stopping.",
+      "expression": "relaxed",
+      "affection": 2,
+      "comfort": 2
+    },
+    "negotiate_regions": {
+      "id": "negotiate_regions",
+      "speaker": "Vivi",
+      "text": "Hands, face, shoulders — those are already ours. Soft torso needs a clear yes. Closer than that needs its own yes.",
+      "expression": "neutral",
+      "affection": 1,
+      "comfort": 1,
+      "choices": [
+        {
+          "id": "torso",
+          "label": "I'd like soft torso — if you want that too.",
+          "next": "negotiate_region_torso",
+          "affection": 2
+        },
+        {
+          "id": "close",
+          "label": "I'd like the option of closer — only if you open it.",
+          "next": "negotiate_region_close",
+          "affection": 2
+        },
+        {
+          "id": "keep",
+          "label": "Keep it casual for now.",
+          "next": "negotiate_region_casual",
+          "affection": 1
+        }
+      ]
+    },
+    "negotiate_region_torso": {
+      "id": "negotiate_region_torso",
+      "speaker": "Vivi",
+      "text": "Okay. Soft torso is open — chest, waist, back. Still gentle. Still stoppable.",
+      "expression": "happy",
+      "affection": 3,
+      "comfort": 2
+    },
+    "negotiate_region_close": {
+      "id": "negotiate_region_close",
+      "speaker": "Vivi",
+      "text": "Closer is a bigger yes. I need trust and a slow lead-in. If we get there, we get there together — not because you insisted.",
+      "expression": "relaxed",
+      "affection": 2,
+      "comfort": 2,
+      "choices": [
+        {
+          "id": "ok",
+          "label": "Together. I won't push.",
+          "next": "negotiate_region_close_yes",
+          "affection": 3
+        },
+        {
+          "id": "wait",
+          "label": "Then we wait until it feels mutual.",
+          "next": "negotiate_region_close_wait",
+          "affection": 3
+        }
+      ]
+    },
+    "negotiate_region_close_yes": {
+      "id": "negotiate_region_close_yes",
+      "speaker": "Vivi",
+      "text": "Then closer is on the table — with check-ins. You ask; I answer. Neither of us overrides the other.",
+      "expression": "happy",
+      "affection": 4,
+      "comfort": 3
+    },
+    "negotiate_region_close_wait": {
+      "id": "negotiate_region_close_wait",
+      "speaker": "Vivi",
+      "text": "That answer builds more trust than any rush. Thank you.",
+      "expression": "happy",
+      "affection": 3,
+      "comfort": 4
+    },
+    "negotiate_region_casual": {
+      "id": "negotiate_region_casual",
+      "speaker": "Vivi",
+      "text": "Casual is good. Sometimes that's the whole night.",
+      "expression": "happy",
+      "affection": 1,
+      "comfort": 2
+    },
+    "negotiate_soft_yes": {
+      "id": "negotiate_soft_yes",
+      "speaker": "Vivi",
+      "text": "Soft yes. Hold me, touch what's open, no climbing the ladder for its own sake.",
+      "expression": "relaxed",
+      "affection": 3,
+      "comfort": 3
+    },
+    "negotiate_open_ask": {
+      "id": "negotiate_open_ask",
+      "speaker": "Vivi",
+      "text": "I can want further and still need the path to be shared. Do you hear the difference?",
+      "expression": "neutral",
+      "affection": 1,
+      "comfort": 1,
+      "choices": [
+        {
+          "id": "yes",
+          "label": "Yes. Shared path, not a goal I take.",
+          "next": "negotiate_region_close_yes",
+          "affection": 4
+        },
+        {
+          "id": "learn",
+          "label": "I'm still learning how to ask.",
+          "next": "negotiate_learn",
+          "affection": 2
+        }
+      ]
+    },
+    "negotiate_learn": {
+      "id": "negotiate_learn",
+      "speaker": "Vivi",
+      "text": "Learning is allowed. Start with: 'Is this okay?' and mean it when I say no.",
+      "expression": "happy",
+      "affection": 2,
+      "comfort": 3,
+      "next": "consent_ask"
+    },
+    "negotiate_not_tonight": {
+      "id": "negotiate_not_tonight",
+      "speaker": "Vivi",
+      "text": "Not tonight is a full answer. Stay on the couch. Hands optional. No sulking.",
+      "expression": "happy",
+      "affection": 2,
+      "comfort": 4
+    },
+    "aftercare_1": {
+      "id": "aftercare_1",
+      "speaker": "Vivi",
+      "text": "Hey — still with me? Water, blanket, or just quiet?",
+      "expression": "relaxed",
+      "affection": 1,
+      "comfort": 3,
+      "choices": [
+        {
+          "id": "quiet",
+          "label": "Quiet. Stay close.",
+          "next": "aftercare_quiet",
+          "affection": 2
+        },
+        {
+          "id": "talk",
+          "label": "Talk a little.",
+          "next": "aftercare_talk",
+          "affection": 2
+        },
+        {
+          "id": "water",
+          "label": "I'll get water.",
+          "next": "aftercare_water",
+          "affection": 1
+        }
+      ]
+    },
+    "aftercare_quiet": {
+      "id": "aftercare_quiet",
+      "speaker": "Vivi",
+      "text": "Good. No performance. Just us cooling down.",
+      "expression": "relaxed",
+      "affection": 2,
+      "comfort": 5
+    },
+    "aftercare_talk": {
+      "id": "aftercare_talk",
+      "speaker": "Vivi",
+      "text": "Tell me what felt good — and what to skip next time. I want the real notes.",
+      "expression": "happy",
+      "affection": 3,
+      "comfort": 3
+    },
+    "aftercare_water": {
+      "id": "aftercare_water",
+      "speaker": "Vivi",
+      "text": "Thanks. Mutual care isn't optional if we're doing this right.",
+      "expression": "happy",
+      "affection": 2,
+      "comfort": 4
+    },
+    "pause_honored": {
+      "id": "pause_honored",
+      "speaker": "Vivi",
+      "text": "You stopped when it mattered. That stays with me longer than the touch.",
+      "expression": "happy",
+      "affection": 3,
+      "comfort": 5
+    },
+    "check_in_prompt": {
+      "id": "check_in_prompt",
+      "speaker": "Vivi",
+      "text": "Still okay? More, same, or pause?",
+      "expression": "neutral",
+      "affection": 0,
+      "comfort": 1,
+      "choices": [
+        {
+          "id": "more",
+          "label": "More — still gentle.",
+          "next": "check_in_more",
+          "affection": 2
+        },
+        {
+          "id": "same",
+          "label": "Same is perfect.",
+          "next": "check_in_same",
+          "affection": 2
+        },
+        {
+          "id": "pause",
+          "label": "Pause.",
+          "next": "pause_honored",
+          "affection": 2
+        }
+      ]
+    },
+    "check_in_more": {
+      "id": "check_in_more",
+      "speaker": "Vivi",
+      "text": "Okay. I'll meet you there — not race you.",
+      "expression": "happy",
+      "affection": 2,
+      "comfort": 2
+    },
+    "check_in_same": {
+      "id": "check_in_same",
+      "speaker": "Vivi",
+      "text": "Same is underrated. Stay.",
+      "expression": "relaxed",
+      "affection": 2,
+      "comfort": 3
+    },
+    "touch_intimate_ask": {
+      "id": "touch_intimate_ask",
+      "speaker": "Vivi",
+      "text": "Yes — with you asking like that. Stay present. If I say pause, we pause.",
+      "expression": "happy",
+      "affection": 4,
+      "comfort": 2
+    },
+    "vivi_invite_soft": {
+      "id": "vivi_invite_soft",
+      "speaker": "Vivi",
+      "text": "Come here for a second? Nothing heavy — I just want you closer.",
+      "expression": "happy",
+      "affection": 2,
+      "comfort": 2,
+      "choices": [
+        {
+          "id": "yes",
+          "label": "I'm here.",
+          "next": "vivi_invite_soft_yes",
+          "affection": 2
+        },
+        {
+          "id": "talk",
+          "label": "Can we talk first?",
+          "next": "negotiate_hub",
+          "affection": 1
+        },
+        {
+          "id": "not",
+          "label": "Not right now.",
+          "next": "vivi_invite_declined",
+          "affection": 1
+        }
+      ]
+    },
+    "vivi_invite_soft_yes": {
+      "id": "vivi_invite_soft_yes",
+      "speaker": "Vivi",
+      "text": "Good. Stay soft with me. I'll tell you if I want more.",
+      "expression": "relaxed",
+      "affection": 3,
+      "comfort": 3
+    },
+    "vivi_invite_declined": {
+      "id": "vivi_invite_declined",
+      "speaker": "Vivi",
+      "text": "Okay. No mood about it. The invite can wait.",
+      "expression": "happy",
+      "affection": 1,
+      "comfort": 2
+    },
+    "vivi_curiosity": {
+      "id": "vivi_curiosity",
+      "speaker": "Vivi",
+      "text": "I've been thinking… I might want to try something closer. Only if you ask properly — and only if I still feel it.",
+      "expression": "surprised",
+      "affection": 2,
+      "comfort": 1,
+      "choices": [
+        {
+          "id": "ask",
+          "label": "Only if you want it too. Do you?",
+          "next": "vivi_curiosity_yes",
+          "affection": 3
+        },
+        {
+          "id": "slow",
+          "label": "We can keep it soft.",
+          "next": "vivi_curiosity_soft",
+          "affection": 2
+        },
+        {
+          "id": "not",
+          "label": "No pressure either way.",
+          "next": "vivi_invite_declined",
+          "affection": 2
+        }
+      ]
+    },
+    "vivi_curiosity_yes": {
+      "id": "vivi_curiosity_yes",
+      "speaker": "Vivi",
+      "text": "Yes. For now. Check in. If I cool off, we stop — that's not a failure.",
+      "expression": "happy",
+      "affection": 4,
+      "comfort": 2
+    },
+    "vivi_curiosity_soft": {
+      "id": "vivi_curiosity_soft",
+      "speaker": "Vivi",
+      "text": "Soft is still good. Curiosity doesn't mean a deadline.",
+      "expression": "relaxed",
+      "affection": 2,
+      "comfort": 3
+    }
+  }
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "id": "omurice",
+    "name": "Omurice",
+    "description": "A ketchup-rice omelette, the weeknight classic.",
+    "ingredients": ["egg", "rice", "ketchup"],
+    "comfort": 10,
+    "affection": 4,
+    "coins": 10,
+    "cookTime": 2
+  },
+  {
+    "id": "hot_cocoa",
+    "name": "Hot Cocoa",
+    "description": "Steamed milk, dark cocoa, a collapsing marshmallow.",
+    "ingredients": ["milk", "cocoa", "marshmallow"],
+    "comfort": 12,
+    "affection": 5,
+    "coins": 8,
+    "cookTime": 2
+  },
+  {
+    "id": "pancakes",
+    "name": "Sunday Pancakes",
+    "description": "Thick batter, slow butter, a stack for two.",
+    "ingredients": ["flour", "egg", "milk"],
+    "comfort": 11,
+    "affection": 6,
+    "coins": 12,
+    "cookTime": 2
+  }
+]
